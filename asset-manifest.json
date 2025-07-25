@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Quiz_App--react/static/css/main.dc60091c.css",
-    "main.js": "/Quiz_App--react/static/js/main.70222fd0.js",
+    "main.js": "/Quiz_App--react/static/js/main.576b66de.js",
     "static/media/puzzle_img.webp": "/Quiz_App--react/static/media/puzzle_img.55f77eeedc33e75ca542.webp",
     "static/media/sport_img.webp": "/Quiz_App--react/static/media/sport_img.3e21df85974a51fb6cca.webp",
     "static/media/history_mystery_bg.webp": "/Quiz_App--react/static/media/history_mystery_bg.2e81bd25d0c945b0778c.webp",
@@ -43,10 +43,10 @@
     "static/media/bg_for_db.webp": "/Quiz_App--react/static/media/bg_for_db.8e25e370b4a29de1dd20.webp",
     "index.html": "/Quiz_App--react/index.html",
     "main.dc60091c.css.map": "/Quiz_App--react/static/css/main.dc60091c.css.map",
-    "main.70222fd0.js.map": "/Quiz_App--react/static/js/main.70222fd0.js.map"
+    "main.576b66de.js.map": "/Quiz_App--react/static/js/main.576b66de.js.map"
   },
   "entrypoints": [
     "static/css/main.dc60091c.css",
-    "static/js/main.70222fd0.js"
+    "static/js/main.576b66de.js"
   ]
 }
