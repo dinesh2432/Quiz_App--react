@@ -4,7 +4,7 @@ import { auth } from '../firebase/firebaseConf';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { FaGoogle } from "react-icons/fa";
-
+import { useLocation } from 'react-router-dom';
 import './Login.css'
 
 const Login = () => {
@@ -30,6 +30,7 @@ const Login = () => {
     e.preventDefault()
     navigate('/signup')
   }
+  const location = useLocation();
   const isLogin = location.pathname == '/login'
   const navigate = useNavigate();
   const handleLogin = async (e) => {
