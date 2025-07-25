@@ -179,69 +179,60 @@ import Hockey from './components/subComponents7/Hockey';
 function App() {
   return (
     <div className="App">
-      {/* ✅ Navigation bar with all links */}
       <nav className="navbar">
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/signup">Sign Up</Link></li>
-          <li><Link to="/dashboard">Dashboard</Link></li>
+          <li><Link to="/"></Link></li>
+          <li><Link to="/login"></Link></li>
+          <li><Link to="/signup"></Link></li>
+          <li><Link to="/dashboard"></Link></li>
 
-          {/* Section 1 */}
-          <li><Link to="/programs">Programs</Link></li>
-          <li><Link to="/puzzles">Puzzles</Link></li>
-          <li><Link to="/series">Series</Link></li>
-          <li><Link to="/detective">Detective</Link></li>
-          <li><Link to="/fact_hunt">Fact Hunt</Link></li>
-          <li><Link to="/sports">Sports</Link></li>
+          <li><Link to="/programs"></Link></li>
+          <li><Link to="/puzzles"></Link></li>
+          <li><Link to="/series"></Link></li>
+          <li><Link to="/detective"></Link></li>
+          <li><Link to="/fact_hunt"></Link></li>
+          <li><Link to="/sports"></Link></li>
 
-          {/* Programming Quizzes */}
-          <li><Link to="/c_quiz">C Quiz</Link></li>
-          <li><Link to="/c-sharp_quiz">C# Quiz</Link></li>
-          <li><Link to="/c-plusplus_quiz">C++ Quiz</Link></li>
-          <li><Link to="/rust_quiz">Rust Quiz</Link></li>
-          <li><Link to="/java_quiz">Java Quiz</Link></li>
-          <li><Link to="/python_quiz">Python Quiz</Link></li>
-          <li><Link to="/javascript_quiz">JavaScript Quiz</Link></li>
-          <li><Link to="/ruby_quiz">Ruby Quiz</Link></li>
+          <li><Link to="/c_quiz"></Link></li>
+          <li><Link to="/c-sharp_quiz"></Link></li>
+          <li><Link to="/c-plusplus_quiz"></Link></li>
+          <li><Link to="/rust_quiz"></Link></li>
+          <li><Link to="/java_quiz"></Link></li>
+          <li><Link to="/python_quiz"></Link></li>
+          <li><Link to="/javascript_quiz"></Link></li>
+          <li><Link to="/ruby_quiz"></Link></li>
 
-          {/* Puzzle Quizzes */}
-          <li><Link to="/word_quiz">Word Puzzle</Link></li>
-          <li><Link to="/math_quiz">Math Puzzle</Link></li>
-          <li><Link to="/logical_quiz">Logical Puzzle</Link></li>
-          <li><Link to="/relation_quiz">Relational Puzzle</Link></li>
+          <li><Link to="/word_quiz"></Link></li>
+          <li><Link to="/math_quiz"></Link></li>
+          <li><Link to="/logical_quiz"></Link></li>
+          <li><Link to="/relation_quiz"></Link></li>
 
-          {/* Series Quizzes */}
-          <li><Link to="/breaking_bad_quiz">Breaking Bad Quiz</Link></li>
-          <li><Link to="/friends_quiz">Friends Quiz</Link></li>
-          <li><Link to="/games_of_thrones_quiz">GOT Quiz</Link></li>
-          <li><Link to="/squid_game_quiz">Squid Game Quiz</Link></li>
-          <li><Link to="/stranger_thing_quiz">Stranger Things Quiz</Link></li>
-          <li><Link to="/wednesday_quiz">Wednesday Quiz</Link></li>
+          <li><Link to="/breaking_bad_quiz"></Link></li>
+          <li><Link to="/friends_quiz"></Link></li>
+          <li><Link to="/games_of_thrones_quiz"></Link></li>
+          <li><Link to="/squid_game_quiz"></Link></li>
+          <li><Link to="/stranger_thing_quiz"></Link></li>
+          <li><Link to="/wednesday_quiz"></Link></li>
 
-          {/* Detective Quizzes */}
-          <li><Link to="/crime_analysis_quiz">Crime Scene Quiz</Link></li>
-          <li><Link to="/deduction_quiz">Deduction Quiz</Link></li>
-          <li><Link to="/pattern_identify_quiz">Pattern Quiz</Link></li>
-          <li><Link to="/witness_statement_quiz">Witness Statement</Link></li>
+          <li><Link to="/crime_analysis_quiz"></Link></li>
+          <li><Link to="/deduction_quiz"></Link></li>
+          <li><Link to="/pattern_identify_quiz"></Link></li>
+          <li><Link to="/witness_statement_quiz"></Link></li>
 
-          {/* Fact Hunt */}
-          <li><Link to="/history_mystery_quiz">History Mysteries</Link></li>
-          <li><Link to="/human_fact_quiz">Human Facts</Link></li>
-          <li><Link to="/science_shock_quiz">Science Shock</Link></li>
-          <li><Link to="/tech_world_quiz">Tech World</Link></li>
-          <li><Link to="/universe_mystery_quiz">Universe Mystery</Link></li>
-          <li><Link to="/world_wonders_quiz">World Wonders</Link></li>
+          <li><Link to="/history_mystery_quiz"></Link></li>
+          <li><Link to="/human_fact_quiz"></Link></li>
+          <li><Link to="/science_shock_quiz"></Link></li>
+          <li><Link to="/tech_world_quiz"></Link></li>
+          <li><Link to="/universe_mystery_quiz"></Link></li>
+          <li><Link to="/world_wonders_quiz"></Link></li>
 
-          {/* Sports */}
-          <li><Link to="/chess_quiz">Chess</Link></li>
-          <li><Link to="/cricket_quiz">Cricket</Link></li>
-          <li><Link to="/football_quiz">Football</Link></li>
-          <li><Link to="/hockey_quiz">Hockey</Link></li>
+          <li><Link to="/chess_quiz"></Link></li>
+          <li><Link to="/cricket_quiz"></Link></li>
+          <li><Link to="/football_quiz"></Link></li>
+          <li><Link to="/hockey_quiz"></Link></li>
         </ul>
       </nav>
 
-      {/* ✅ All route definitions */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
