@@ -1,0 +1,854 @@
+{
+    
+    "chess": {
+        "beginner": [
+            {
+            "question": "Which piece can move diagonally any number of squares?",
+            "options": [
+                { "text": "Rook", "isCorrect": false },
+                { "text": "Queen", "isCorrect": true },
+                { "text": "Knight", "isCorrect": false },
+                { "text": "King", "isCorrect": false }
+            ],
+            "answer": "Queen"
+            },
+            {
+            "question": "What is the only piece that can jump over others?",
+            "options": [
+                { "text": "Pawn", "isCorrect": false },
+                { "text": "Knight", "isCorrect": true },
+                { "text": "Bishop", "isCorrect": false },
+                { "text": "Queen", "isCorrect": false }
+            ],
+            "answer": "Knight"
+            },
+            {
+            "question": "How many total squares are there on a standard chessboard?",
+            "options": [
+                { "text": "49", "isCorrect": false },
+                { "text": "64", "isCorrect": true },
+                { "text": "81", "isCorrect": false },
+                { "text": "100", "isCorrect": false }
+            ],
+            "answer": "64"
+            },
+            {
+            "question": "Which piece is involved in castling along with the King?",
+            "options": [
+                { "text": "Queen", "isCorrect": false },
+                { "text": "Rook", "isCorrect": true },
+                { "text": "Bishop", "isCorrect": false },
+                { "text": "Knight", "isCorrect": false }
+            ],
+            "answer": "Rook"
+            },
+            {
+            "question": "Which piece can promote to any other piece (except King) when reaching the 8th rank?",
+            "options": [
+                { "text": "Knight", "isCorrect": false },
+                { "text": "Bishop", "isCorrect": false },
+                { "text": "Pawn", "isCorrect": true },
+                { "text": "Rook", "isCorrect": false }
+            ],
+            "answer": "Pawn"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "What is the minimum number of moves required to achieve checkmate?",
+            "options": [
+                { "text": "2", "isCorrect": true },
+                { "text": "3", "isCorrect": false },
+                { "text": "4", "isCorrect": false },
+                { "text": "5", "isCorrect": false }
+            ],
+            "answer": "2"
+            },
+            {
+            "question": "In chess notation, what does 'O-O-O' signify?",
+            "options": [
+                { "text": "Kingside castling", "isCorrect": false },
+                { "text": "Queenside castling", "isCorrect": true },
+                { "text": "En passant", "isCorrect": false },
+                { "text": "Checkmate", "isCorrect": false }
+            ],
+            "answer": "Queenside castling"
+            },
+            {
+            "question": "Which square does a white bishop on c1 reach in one move if no pieces block it?",
+            "options": [
+                { "text": "a3", "isCorrect": false },
+                { "text": "f4", "isCorrect": false },
+                { "text": "h6", "isCorrect": true },
+                { "text": "d2", "isCorrect": false }
+            ],
+            "answer": "h6"
+            },
+            {
+            "question": "What is a stalemate?",
+            "options": [
+                { "text": "A situation where the King is captured", "isCorrect": false },
+                { "text": "A draw where the player has no legal move", "isCorrect": true },
+                { "text": "A pawn promotion", "isCorrect": false },
+                { "text": "A resignation", "isCorrect": false }
+            ],
+            "answer": "A draw where the player has no legal move"
+            },
+            {
+            "question": "Which of the following is a common opening in chess?",
+            "options": [
+                { "text": "Sicilian Defense", "isCorrect": true },
+                { "text": "Mediterranean Attack", "isCorrect": false },
+                { "text": "Eastern Fortress", "isCorrect": false },
+                { "text": "Polar Bear Trap", "isCorrect": false }
+            ],
+            "answer": "Sicilian Defense"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Which opening begins with 1.d4 Nf6 2.c4 g6?",
+            "options": [
+                { "text": "King's Indian Defense", "isCorrect": true },
+                { "text": "French Defense", "isCorrect": false },
+                { "text": "Ruy Lopez", "isCorrect": false },
+                { "text": "Scandinavian Defense", "isCorrect": false }
+            ],
+            "answer": "King's Indian Defense"
+            },
+            {
+            "question": "What is zugzwang in chess?",
+            "options": [
+                { "text": "A forced checkmate", "isCorrect": false },
+                { "text": "A position where any move worsens the position", "isCorrect": true },
+                { "text": "A type of castling", "isCorrect": false },
+                { "text": "A threefold repetition", "isCorrect": false }
+            ],
+            "answer": "A position where any move worsens the position"
+            },
+            {
+            "question": "Which is a known pawn structure weakness?",
+            "options": [
+                { "text": "Backward pawn", "isCorrect": true },
+                { "text": "Double bishop", "isCorrect": false },
+                { "text": "Castled king", "isCorrect": false },
+                { "text": "Knight outpost", "isCorrect": false }
+            ],
+            "answer": "Backward pawn"
+            },
+            {
+            "question": "Which tactic sacrifices a piece to gain a better position?",
+            "options": [
+                { "text": "Pin", "isCorrect": false },
+                { "text": "Fork", "isCorrect": false },
+                { "text": "Skewer", "isCorrect": false },
+                { "text": "Gambit", "isCorrect": true }
+            ],
+            "answer": "Gambit"
+            },
+            {
+            "question": "Which endgame is theoretically drawn with perfect play?",
+            "options": [
+                { "text": "King vs King", "isCorrect": true },
+                { "text": "Queen vs King", "isCorrect": false },
+                { "text": "Rook vs King", "isCorrect": false },
+                { "text": "Two Bishops vs King", "isCorrect": false }
+            ],
+            "answer": "King vs King"
+            }
+        ],
+        "pro": [
+            {
+            "question": "In which year was the modern FIDE time control of 90 minutes + 30 seconds per move introduced?",
+            "options": [
+                { "text": "1991", "isCorrect": false },
+                { "text": "2001", "isCorrect": false },
+                { "text": "2005", "isCorrect": true },
+                { "text": "2010", "isCorrect": false }
+            ],
+            "answer": "2005"
+            },
+            {
+            "question": "Who was the first player to achieve a rating above 2800?",
+            "options": [
+                { "text": "Garry Kasparov", "isCorrect": true },
+                { "text": "Bobby Fischer", "isCorrect": false },
+                { "text": "Magnus Carlsen", "isCorrect": false },
+                { "text": "Anatoly Karpov", "isCorrect": false }
+            ],
+            "answer": "Garry Kasparov"
+            },
+            {
+            "question": "Which engine defeated the world champion in 1997?",
+            "options": [
+                { "text": "AlphaZero", "isCorrect": false },
+                { "text": "Fritz", "isCorrect": false },
+                { "text": "Deep Blue", "isCorrect": true },
+                { "text": "Stockfish", "isCorrect": false }
+            ],
+            "answer": "Deep Blue"
+            },
+            {
+            "question": "Which rule limits repeating the same position three times?",
+            "options": [
+                { "text": "Zugzwang", "isCorrect": false },
+                { "text": "En passant", "isCorrect": false },
+                { "text": "Threefold repetition", "isCorrect": true },
+                { "text": "Draw by material", "isCorrect": false }
+            ],
+            "answer": "Threefold repetition"
+            },
+            {
+            "question": "What is the maximum number of queens a player can have on the board?",
+            "options": [
+                { "text": "9", "isCorrect": true },
+                { "text": "8", "isCorrect": false },
+                { "text": "10", "isCorrect": false },
+                { "text": "7", "isCorrect": false }
+            ],
+            "answer": "9"
+            }
+        ]
+        
+    },
+
+
+
+
+    "cricket": {
+      "beginner": [
+        {
+          "question": "How many players are on a cricket team?",
+          "options": [
+            { "text": "10", "isCorrect": false },
+            { "text": "11", "isCorrect": true },
+            { "text": "12", "isCorrect": false },
+            { "text": "9", "isCorrect": false }
+          ],
+          "answer": "11"
+        },
+        {
+          "question": "What is the name of the player who throws the ball?",
+          "options": [
+            { "text": "Batsman", "isCorrect": false },
+            { "text": "Fielder", "isCorrect": false },
+            { "text": "Bowler", "isCorrect": true },
+            { "text": "Keeper", "isCorrect": false }
+          ],
+          "answer": "Bowler"
+        },
+        {
+          "question": "Which country has won the most ICC Cricket World Cups (as of 2024)?",
+          "options": [
+            { "text": "India", "isCorrect": false },
+            { "text": "Australia", "isCorrect": true },
+            { "text": "England", "isCorrect": false },
+            { "text": "West Indies", "isCorrect": false }
+          ],
+          "answer": "Australia"
+        },
+        {
+          "question": "How many runs is a boundary worth if the ball crosses the ground?",
+          "options": [
+            { "text": "6", "isCorrect": false },
+            { "text": "4", "isCorrect": true },
+            { "text": "2", "isCorrect": false },
+            { "text": "5", "isCorrect": false }
+          ],
+          "answer": "4"
+        },
+        {
+          "question": "What is the shape of a cricket pitch?",
+          "options": [
+            { "text": "Square", "isCorrect": false },
+            { "text": "Round", "isCorrect": false },
+            { "text": "Rectangular", "isCorrect": true },
+            { "text": "Oval", "isCorrect": false }
+          ],
+          "answer": "Rectangular"
+        }
+      ],
+      "intermediate": [
+        {
+          "question": "Who was the first cricketer to score 10,000 runs in ODIs?",
+          "options": [
+            { "text": "Ricky Ponting", "isCorrect": false },
+            { "text": "Sachin Tendulkar", "isCorrect": true },
+            { "text": "Brian Lara", "isCorrect": false },
+            { "text": "Rahul Dravid", "isCorrect": false }
+          ],
+          "answer": "Sachin Tendulkar"
+        },
+        {
+          "question": "What does LBW stand for in cricket?",
+          "options": [
+            { "text": "Leg Behind Wicket", "isCorrect": false },
+            { "text": "Leg Before Wicket", "isCorrect": true },
+            { "text": "Line Ball Wide", "isCorrect": false },
+            { "text": "Left Bat Wing", "isCorrect": false }
+          ],
+          "answer": "Leg Before Wicket"
+        },
+        {
+          "question": "Which country hosted the 2019 Cricket World Cup?",
+          "options": [
+            { "text": "India", "isCorrect": false },
+            { "text": "England", "isCorrect": true },
+            { "text": "Australia", "isCorrect": false },
+            { "text": "South Africa", "isCorrect": false }
+          ],
+          "answer": "England"
+        },
+        {
+          "question": "Which player is known for the 'helicopter shot'?",
+          "options": [
+            { "text": "Virat Kohli", "isCorrect": false },
+            { "text": "AB de Villiers", "isCorrect": false },
+            { "text": "MS Dhoni", "isCorrect": true },
+            { "text": "Hardik Pandya", "isCorrect": false }
+          ],
+          "answer": "MS Dhoni"
+        },
+        {
+          "question": "How many legal deliveries are there in an over?",
+          "options": [
+            { "text": "5", "isCorrect": false },
+            { "text": "6", "isCorrect": true },
+            { "text": "7", "isCorrect": false },
+            { "text": "8", "isCorrect": false }
+          ],
+          "answer": "6"
+        }
+      ],
+      "advanced": [
+        {
+          "question": "What is the maximum number of overs allowed per bowler in a T20 match?",
+          "options": [
+            { "text": "5", "isCorrect": false },
+            { "text": "4", "isCorrect": true },
+            { "text": "6", "isCorrect": false },
+            { "text": "3", "isCorrect": false }
+          ],
+          "answer": "4"
+        },
+        {
+          "question": "Who holds the record for the fastest century in ODIs (as of 2024)?",
+          "options": [
+            { "text": "AB de Villiers", "isCorrect": true },
+            { "text": "Shahid Afridi", "isCorrect": false },
+            { "text": "Chris Gayle", "isCorrect": false },
+            { "text": "Virender Sehwag", "isCorrect": false }
+          ],
+          "answer": "AB de Villiers"
+        },
+        {
+          "question": "What is a 'duck' in cricket?",
+          "options": [
+            { "text": "Bowler gets 3 wickets in an over", "isCorrect": false },
+            { "text": "Batsman scores zero", "isCorrect": true },
+            { "text": "Ball bounces twice before reaching batsman", "isCorrect": false },
+            { "text": "A tie match", "isCorrect": false }
+          ],
+          "answer": "Batsman scores zero"
+        },
+        {
+          "question": "Which of the following is NOT a fielding position?",
+          "options": [
+            { "text": "Third man", "isCorrect": false },
+            { "text": "Silly mid off", "isCorrect": false },
+            { "text": "Long on", "isCorrect": false },
+            { "text": "Backward cover point", "isCorrect": true }
+          ],
+          "answer": "Backward cover point"
+        },
+        {
+          "question": "Which Indian bowler took 10 wickets in a single test innings?",
+          "options": [
+            { "text": "Anil Kumble", "isCorrect": true },
+            { "text": "Kapil Dev", "isCorrect": false },
+            { "text": "Ravichandran Ashwin", "isCorrect": false },
+            { "text": "Harbhajan Singh", "isCorrect": false }
+          ],
+          "answer": "Anil Kumble"
+        }
+      ],
+      "pro": [
+        {
+          "question": "What is the highest individual score in Test cricket history (as of 2024)?",
+          "options": [
+            { "text": "400*", "isCorrect": true },
+            { "text": "367*", "isCorrect": false },
+            { "text": "380", "isCorrect": false },
+            { "text": "410*", "isCorrect": false }
+          ],
+          "answer": "400*"
+        },
+        {
+          "question": "Which player has hit 6 sixes in an over in international cricket (multiple correct, but pick the earliest)?",
+          "options": [
+            { "text": "Yuvraj Singh", "isCorrect": false },
+            { "text": "Herschelle Gibbs", "isCorrect": true },
+            { "text": "Kieron Pollard", "isCorrect": false },
+            { "text": "Jaskaran Malhotra", "isCorrect": false }
+          ],
+          "answer": "Herschelle Gibbs"
+        },
+        {
+          "question": "Which country won the ICC World Test Championship Final in 2023?",
+          "options": [
+            { "text": "India", "isCorrect": false },
+            { "text": "Australia", "isCorrect": true },
+            { "text": "South Africa", "isCorrect": false },
+            { "text": "New Zealand", "isCorrect": false }
+          ],
+          "answer": "Australia"
+        },
+        {
+          "question": "What does the DRS system stand for?",
+          "options": [
+            { "text": "Dhoni Review System", "isCorrect": true },
+            { "text": "Digital Replay System", "isCorrect": false },
+            { "text": "Direct Replay Signal", "isCorrect": false },
+            { "text": "Dynamic Review Setup", "isCorrect": false }
+          ],
+          "answer": "Decision Review System"
+        },
+        {
+          "question": "Which player bowled the 'underarm' delivery that caused controversy in 1981?",
+          "options": [
+            { "text": "Dennis Lillee", "isCorrect": false },
+            { "text": "Greg Chappell", "isCorrect": false },
+            { "text": "Trevor Chappell", "isCorrect": true },
+            { "text": "Shane Warne", "isCorrect": false }
+          ],
+          "answer": "Trevor Chappell"
+        }
+      ]
+    },
+
+
+
+    "football": {
+        "beginner": [
+            {
+            "question": "Which country won the FIFA World Cup in 2018?",
+            "options": [
+                { "text": "Germany", "isCorrect": false },
+                { "text": "Brazil", "isCorrect": false },
+                { "text": "France", "isCorrect": true },
+                { "text": "Argentina", "isCorrect": false }
+            ],
+            "answer": "France"
+            },
+            {
+            "question": "How many players are there in a football team on the field?",
+            "options": [
+                { "text": "10", "isCorrect": false },
+                { "text": "11", "isCorrect": true },
+                { "text": "12", "isCorrect": false },
+                { "text": "9", "isCorrect": false }
+            ],
+            "answer": "11"
+            },
+            {
+            "question": "What part of the body can’t touch the ball in football (except the goalkeeper)?",
+            "options": [
+                { "text": "Head", "isCorrect": false },
+                { "text": "Knee", "isCorrect": false },
+                { "text": "Hand", "isCorrect": true },
+                { "text": "Foot", "isCorrect": false }
+            ],
+            "answer": "Hand"
+            },
+            {
+            "question": "What is the name of the prestigious football tournament played every four years?",
+            "options": [
+                { "text": "Champions League", "isCorrect": false },
+                { "text": "Premier League", "isCorrect": false },
+                { "text": "FIFA World Cup", "isCorrect": true },
+                { "text": "Copa America", "isCorrect": false }
+            ],
+            "answer": "FIFA World Cup"
+            },
+            {
+            "question": "Which player is famous for the “Hand of God” goal?",
+            "options": [
+                { "text": "Diego Maradona", "isCorrect": true },
+                { "text": "Pele", "isCorrect": false },
+                { "text": "Lionel Messi", "isCorrect": false },
+                { "text": "Cristiano Ronaldo", "isCorrect": false }
+            ],
+            "answer": "Diego Maradona"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Which club has won the most UEFA Champions League titles as of 2024?",
+            "options": [
+                { "text": "AC Milan", "isCorrect": false },
+                { "text": "Manchester United", "isCorrect": false },
+                { "text": "Real Madrid", "isCorrect": true },
+                { "text": "Bayern Munich", "isCorrect": false }
+            ],
+            "answer": "Real Madrid"
+            },
+            {
+            "question": "What is the standard length of a football match (excluding extra time)?",
+            "options": [
+                { "text": "80 minutes", "isCorrect": false },
+                { "text": "90 minutes", "isCorrect": true },
+                { "text": "100 minutes", "isCorrect": false },
+                { "text": "70 minutes", "isCorrect": false }
+            ],
+            "answer": "90 minutes"
+            },
+            {
+            "question": "Who holds the record for the most goals scored in a single World Cup tournament?",
+            "options": [
+                { "text": "Kylian Mbappé", "isCorrect": false },
+                { "text": "Just Fontaine", "isCorrect": true },
+                { "text": "Miroslav Klose", "isCorrect": false },
+                { "text": "Ronaldo Nazário", "isCorrect": false }
+            ],
+            "answer": "Just Fontaine"
+            },
+            {
+            "question": "Which country hosted the first ever FIFA World Cup?",
+            "options": [
+                { "text": "Brazil", "isCorrect": false },
+                { "text": "Uruguay", "isCorrect": true },
+                { "text": "Italy", "isCorrect": false },
+                { "text": "France", "isCorrect": false }
+            ],
+            "answer": "Uruguay"
+            },
+            {
+            "question": "Who is known as the 'Egyptian King' in the Premier League?",
+            "options": [
+                { "text": "Mo Salah", "isCorrect": true },
+                { "text": "Sadio Mane", "isCorrect": false },
+                { "text": "Riyad Mahrez", "isCorrect": false },
+                { "text": "Hakim Ziyech", "isCorrect": false }
+            ],
+            "answer": "Mo Salah"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Which team did Lionel Messi score his first Champions League goal against?",
+            "options": [
+                { "text": "Chelsea", "isCorrect": false },
+                { "text": "Panathinaikos", "isCorrect": true },
+                { "text": "Arsenal", "isCorrect": false },
+                { "text": "Juventus", "isCorrect": false }
+            ],
+            "answer": "Panathinaikos"
+            },
+            {
+            "question": "Who was the captain of the 2006 World Cup winning team?",
+            "options": [
+                { "text": "Zinedine Zidane", "isCorrect": false },
+                { "text": "Fabio Cannavaro", "isCorrect": true },
+                { "text": "Gianluigi Buffon", "isCorrect": false },
+                { "text": "Andrea Pirlo", "isCorrect": false }
+            ],
+            "answer": "Fabio Cannavaro"
+            },
+            {
+            "question": "What is the maximum number of substitutions allowed in regular time of an official FIFA match (as of 2024)?",
+            "options": [
+                { "text": "3", "isCorrect": false },
+                { "text": "5", "isCorrect": true },
+                { "text": "6", "isCorrect": false },
+                { "text": "7", "isCorrect": false }
+            ],
+            "answer": "5"
+            },
+            {
+            "question": "Which goalkeeper has the most clean sheets in Premier League history?",
+            "options": [
+                { "text": "Petr Čech", "isCorrect": true },
+                { "text": "David De Gea", "isCorrect": false },
+                { "text": "Alisson Becker", "isCorrect": false },
+                { "text": "Joe Hart", "isCorrect": false }
+            ],
+            "answer": "Petr Čech"
+            },
+            {
+            "question": "Which player has scored the fastest hat-trick in Premier League history?",
+            "options": [
+                { "text": "Sadio Mane", "isCorrect": true },
+                { "text": "Cristiano Ronaldo", "isCorrect": false },
+                { "text": "Wayne Rooney", "isCorrect": false },
+                { "text": "Harry Kane", "isCorrect": false }
+            ],
+            "answer": "Sadio Mane"
+            }
+        ],
+        "pro": [
+            {
+            "question": "Which player has played for Inter Milan, Manchester United, and Barcelona?",
+            "options": [
+                { "text": "Zlatan Ibrahimović", "isCorrect": true },
+                { "text": "Samuel Eto’o", "isCorrect": false },
+                { "text": "Alexis Sánchez", "isCorrect": false },
+                { "text": "Romelu Lukaku", "isCorrect": false }
+            ],
+            "answer": "Zlatan Ibrahimović"
+            },
+            {
+            "question": "Which footballer won the Ballon d'Or after retiring for the first time?",
+            "options": [
+                { "text": "Zinedine Zidane", "isCorrect": false },
+                { "text": "George Best", "isCorrect": false },
+                { "text": "Johan Cruyff", "isCorrect": false },
+                { "text": "Marco van Basten", "isCorrect": true }
+            ],
+            "answer": "Marco van Basten"
+            },
+            {
+            "question": "Which country has appeared in three World Cup finals but never won?",
+            "options": [
+                { "text": "Netherlands", "isCorrect": true },
+                { "text": "Croatia", "isCorrect": false },
+                { "text": "Hungary", "isCorrect": false },
+                { "text": "Sweden", "isCorrect": false }
+            ],
+            "answer": "Netherlands"
+            },
+            {
+            "question": "What is the highest scoring match in World Cup history?",
+            "options": [
+                { "text": "Austria 7–5 Switzerland (1954)", "isCorrect": true },
+                { "text": "Brazil 1–7 Germany (2014)", "isCorrect": false },
+                { "text": "Portugal 7–0 North Korea (2010)", "isCorrect": false },
+                { "text": "Germany 8–0 Saudi Arabia (2002)", "isCorrect": false }
+            ],
+            "answer": "Austria 7–5 Switzerland (1954)"
+            },
+            {
+            "question": "Which football club is known as 'The Old Lady'?",
+            "options": [
+                { "text": "Juventus", "isCorrect": true },
+                { "text": "Real Madrid", "isCorrect": false },
+                { "text": "AC Milan", "isCorrect": false },
+                { "text": "Boca Juniors", "isCorrect": false }
+            ],
+            "answer": "Juventus"
+            }
+        ]
+    },
+
+
+
+    "hockey": {
+        "beginner": [
+            {
+            "question": "How many players are there in a standard field hockey team?",
+            "options": [
+                { "text": "9", "isCorrect": false },
+                { "text": "10", "isCorrect": false },
+                { "text": "11", "isCorrect": true },
+                { "text": "12", "isCorrect": false }
+            ],
+            "answer": "11"
+            },
+            {
+            "question": "What shape is the ball used in field hockey?",
+            "options": [
+                { "text": "Oval", "isCorrect": false },
+                { "text": "Round", "isCorrect": true },
+                { "text": "Square", "isCorrect": false },
+                { "text": "Flat", "isCorrect": false }
+            ],
+            "answer": "Round"
+            },
+            {
+            "question": "Which country has won the most Olympic gold medals in field hockey?",
+            "options": [
+                { "text": "Germany", "isCorrect": false },
+                { "text": "India", "isCorrect": true },
+                { "text": "Australia", "isCorrect": false },
+                { "text": "Netherlands", "isCorrect": false }
+            ],
+            "answer": "India"
+            },
+            {
+            "question": "Which surface is most commonly used in modern field hockey?",
+            "options": [
+                { "text": "Grass", "isCorrect": false },
+                { "text": "Clay", "isCorrect": false },
+                { "text": "Astroturf", "isCorrect": true },
+                { "text": "Concrete", "isCorrect": false }
+            ],
+            "answer": "Astroturf"
+            },
+            {
+            "question": "What is the term for restarting play after a foul?",
+            "options": [
+                { "text": "Goal kick", "isCorrect": false },
+                { "text": "Penalty kick", "isCorrect": false },
+                { "text": "Free hit", "isCorrect": true },
+                { "text": "Corner", "isCorrect": false }
+            ],
+            "answer": "Free hit"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Who is known as the 'Wizard' of Indian hockey?",
+            "options": [
+                { "text": "Dhanraj Pillay", "isCorrect": false },
+                { "text": "Sandeep Singh", "isCorrect": false },
+                { "text": "Dhyan Chand", "isCorrect": true },
+                { "text": "Manpreet Singh", "isCorrect": false }
+            ],
+            "answer": "Dhyan Chand"
+            },
+            {
+            "question": "What color card is shown for a temporary suspension in hockey?",
+            "options": [
+                { "text": "Red", "isCorrect": false },
+                { "text": "Green", "isCorrect": false },
+                { "text": "Yellow", "isCorrect": true },
+                { "text": "Blue", "isCorrect": false }
+            ],
+            "answer": "Yellow"
+            },
+            {
+            "question": "Which Indian city hosted the Men's Hockey World Cup in 2018?",
+            "options": [
+                { "text": "New Delhi", "isCorrect": false },
+                { "text": "Chennai", "isCorrect": false },
+                { "text": "Bhubaneswar", "isCorrect": true },
+                { "text": "Mumbai", "isCorrect": false }
+            ],
+            "answer": "Bhubaneswar"
+            },
+            {
+            "question": "How long is a standard field hockey match?",
+            "options": [
+                { "text": "60 minutes", "isCorrect": true },
+                { "text": "70 minutes", "isCorrect": false },
+                { "text": "90 minutes", "isCorrect": false },
+                { "text": "45 minutes", "isCorrect": false }
+            ],
+            "answer": "60 minutes"
+            },
+            {
+            "question": "What is the maximum number of players a team can have on the bench?",
+            "options": [
+                { "text": "5", "isCorrect": false },
+                { "text": "7", "isCorrect": true },
+                { "text": "3", "isCorrect": false },
+                { "text": "9", "isCorrect": false }
+            ],
+            "answer": "7"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "In which year did India win its first Olympic gold medal in hockey?",
+            "options": [
+                { "text": "1928", "isCorrect": true },
+                { "text": "1932", "isCorrect": false },
+                { "text": "1948", "isCorrect": false },
+                { "text": "1952", "isCorrect": false }
+            ],
+            "answer": "1928"
+            },
+            {
+            "question": "Which country defeated India in the 1976 Olympics to end their streak?",
+            "options": [
+                { "text": "Pakistan", "isCorrect": false },
+                { "text": "Australia", "isCorrect": false },
+                { "text": "New Zealand", "isCorrect": true },
+                { "text": "Germany", "isCorrect": false }
+            ],
+            "answer": "New Zealand"
+            },
+            {
+            "question": "How many times has India won the Hockey World Cup?",
+            "options": [
+                { "text": "1", "isCorrect": true },
+                { "text": "2", "isCorrect": false },
+                { "text": "3", "isCorrect": false },
+                { "text": "4", "isCorrect": false }
+            ],
+            "answer": "1"
+            },
+            {
+            "question": "Which player holds the record for most goals in a single World Cup tournament?",
+            "options": [
+                { "text": "Teun de Nooijer", "isCorrect": false },
+                { "text": "Sohail Abbas", "isCorrect": false },
+                { "text": "Paul Litjens", "isCorrect": true },
+                { "text": "Jamie Dwyer", "isCorrect": false }
+            ],
+            "answer": "Paul Litjens"
+            },
+            {
+            "question": "Which Indian goalkeeper was nicknamed 'The Wall'?",
+            "options": [
+                { "text": "PR Sreejesh", "isCorrect": true },
+                { "text": "Adrian D’Souza", "isCorrect": false },
+                { "text": "Baljit Singh", "isCorrect": false },
+                { "text": "Devesh Chauhan", "isCorrect": false }
+            ],
+            "answer": "PR Sreejesh"
+            }
+        ],
+        "pro": [
+            {
+            "question": "Which country has hosted the Hockey World Cup the most times?",
+            "options": [
+                { "text": "India", "isCorrect": true },
+                { "text": "Netherlands", "isCorrect": false },
+                { "text": "Germany", "isCorrect": false },
+                { "text": "Pakistan", "isCorrect": false }
+            ],
+            "answer": "India"
+            },
+            {
+            "question": "Which country won the first ever Women’s Hockey World Cup?",
+            "options": [
+                { "text": "Netherlands", "isCorrect": true },
+                { "text": "Australia", "isCorrect": false },
+                { "text": "India", "isCorrect": false },
+                { "text": "Germany", "isCorrect": false }
+            ],
+            "answer": "Netherlands"
+            },
+            {
+            "question": "What is the diameter of a standard field hockey ball?",
+            "options": [
+                { "text": "71.3 mm", "isCorrect": true },
+                { "text": "65 mm", "isCorrect": false },
+                { "text": "70 mm", "isCorrect": false },
+                { "text": "75 mm", "isCorrect": false }
+            ],
+            "answer": "71.3 mm"
+            },
+            {
+            "question": "Who scored the winning goal for India in the 2020 Tokyo Olympics bronze medal match?",
+            "options": [
+                { "text": "Rupinder Pal Singh", "isCorrect": false },
+                { "text": "Simranjeet Singh", "isCorrect": true },
+                { "text": "Manpreet Singh", "isCorrect": false },
+                { "text": "Harmanpreet Singh", "isCorrect": false }
+            ],
+            "answer": "Simranjeet Singh"
+            },
+            {
+            "question": "Which legendary Pakistani player is considered the greatest goal-scorer in field hockey history?",
+            "options": [
+                { "text": "Sohail Abbas", "isCorrect": true },
+                { "text": "Shahbaz Ahmed", "isCorrect": false },
+                { "text": "Waseem Ahmed", "isCorrect": false },
+                { "text": "Rehan Butt", "isCorrect": false }
+            ],
+            "answer": "Sohail Abbas"
+            }
+        ]
+    }
+}

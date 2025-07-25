@@ -1,0 +1,857 @@
+{
+    "crime_analysis": {
+        "beginner": [
+            {
+            "question": "A man is found murdered on a Sunday. The wife calls the police. The police question the wife and staff. The wife says she was sleeping, the cook was cooking breakfast, the gardener was picking vegetables, and the maid was getting the mail. The police arrest the murderer immediately. Who was it?",
+            "options": [
+                { "text": "Wife", "isCorrect": false },
+                { "text": "Cook", "isCorrect": false },
+                { "text": "Gardener", "isCorrect": false },
+                { "text": "Maid", "isCorrect": true }
+            ],
+            "answer": "Maid"
+            },
+            {
+            "question": "A man shot his wife. Then he held her underwater for 5 minutes. Finally, he hung her. But 5 minutes later they both went out together and enjoyed a meal. How?",
+            "options": [
+                { "text": "It was a dream", "isCorrect": false },
+                { "text": "He hallucinated", "isCorrect": false },
+                { "text": "It was part of a movie", "isCorrect": false },
+                { "text": "They were photographers developing photos", "isCorrect": true }
+            ],
+            "answer": "They were photographers developing photos"
+            },
+            {
+            "question": "A woman was found dead in her apartment. The detective found a calendar with the numbers 6, 4, 9, 10, 11, and 1 circled in red. Who is the killer?",
+            "options": [
+                { "text": "June", "isCorrect": false },
+                { "text": "April", "isCorrect": false },
+                { "text": "Jason", "isCorrect": true },
+                { "text": "November", "isCorrect": false }
+            ],
+            "answer": "Jason"
+            },
+            {
+            "question": "Detective Mark enters a room. There’s a puddle of water on the floor and a dead man hanging from the ceiling. There’s nothing else in the room. How did he die?",
+            "options": [
+                { "text": "Suicide by hanging using ice block", "isCorrect": true },
+                { "text": "Killed by poison", "isCorrect": false },
+                { "text": "Drowned", "isCorrect": false },
+                { "text": "He was electrocuted", "isCorrect": false }
+            ],
+            "answer": "Suicide by hanging using ice block"
+            },
+            {
+            "question": "A serial killer kidnaps people, makes them take 1 of 2 pills. One pill is poisoned, the other is safe. Every victim dies, but the killer survives. How?",
+            "options": [
+                { "text": "He was immune to poison", "isCorrect": false },
+                { "text": "He took antidote before", "isCorrect": false },
+                { "text": "Both pills were safe, water was poisoned", "isCorrect": true },
+                { "text": "He never took a pill", "isCorrect": false }
+            ],
+            "answer": "Both pills were safe, water was poisoned"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Two people were playing chess. They played 5 games. Each won the same number of games and there were no draws. How is this possible?",
+            "options": [
+                { "text": "They played with other players", "isCorrect": false },
+                { "text": "They took turns winning", "isCorrect": false },
+                { "text": "They weren’t playing each other", "isCorrect": true },
+                { "text": "Some games were disqualified", "isCorrect": false }
+            ],
+            "answer": "They weren’t playing each other"
+            },
+            {
+            "question": "A man is lying dead in a field wearing a parachute. The parachute is unopened. What happened?",
+            "options": [
+                { "text": "Parachute failed to open", "isCorrect": true },
+                { "text": "Shot midair", "isCorrect": false },
+                { "text": "Poisoned before flight", "isCorrect": false },
+                { "text": "Had a heart attack", "isCorrect": false }
+            ],
+            "answer": "Parachute failed to open"
+            },
+            {
+            "question": "A couple is found dead on the floor in a puddle of water and broken glass. There is no sign of injury. What happened?",
+            "options": [
+                { "text": "They were fish in a bowl", "isCorrect": true },
+                { "text": "They drowned", "isCorrect": false },
+                { "text": "They were murdered", "isCorrect": false },
+                { "text": "They committed suicide", "isCorrect": false }
+            ],
+            "answer": "They were fish in a bowl"
+            },
+            {
+            "question": "A man is murdered in his office. The suspects are his wife, his secretary, and his friend. The calendar has '4, 5, 12, 13, 14' written in blood. Who did it?",
+            "options": [
+                { "text": "Wife", "isCorrect": false },
+                { "text": "Secretary", "isCorrect": true },
+                { "text": "Friend", "isCorrect": false },
+                { "text": "Stranger", "isCorrect": false }
+            ],
+            "answer": "Secretary"
+            },
+            {
+            "question": "A man orders a drink of ice water and dies after a few sips. The drink was poisoned, but only he died. How?",
+            "options": [
+                { "text": "Poison was in ice cubes", "isCorrect": true },
+                { "text": "He was allergic to water", "isCorrect": false },
+                { "text": "He drank too fast", "isCorrect": false },
+                { "text": "Poisoned glass", "isCorrect": false }
+            ],
+            "answer": "Poison was in ice cubes"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "A woman is at her husband’s funeral. She meets a man she doesn’t know and falls for him instantly. A week later, she kills her sister. Why?",
+            "options": [
+                { "text": "She thought the man would come to the funeral", "isCorrect": true },
+                { "text": "Jealousy", "isCorrect": false },
+                { "text": "Mental disorder", "isCorrect": false },
+                { "text": "Money inheritance", "isCorrect": false }
+            ],
+            "answer": "She thought the man would come to the funeral"
+            },
+            {
+            "question": "Detective finds a dead body in a locked room. Windows are shut. No weapon inside. The victim has a stab wound. How did the murderer escape?",
+            "options": [
+                { "text": "Through mail slot", "isCorrect": false },
+                { "text": "Used ice dagger that melted", "isCorrect": true },
+                { "text": "Trapdoor", "isCorrect": false },
+                { "text": "Was never inside", "isCorrect": false }
+            ],
+            "answer": "Used ice dagger that melted"
+            },
+            {
+            "question": "Three friends check into a hotel room that costs $30. Each pays $10. Later, manager says room was $25 and sends $5 back. Bellboy gives $1 to each and keeps $2. Each paid $9 totaling $27. $27 + $2 = $29. Where is the missing $1?",
+            "options": [
+                { "text": "There is no missing dollar", "isCorrect": true },
+                { "text": "Bellboy kept $3", "isCorrect": false },
+                { "text": "Math trick", "isCorrect": false },
+                { "text": "Manager lied", "isCorrect": false }
+            ],
+            "answer": "There is no missing dollar"
+            },
+            {
+            "question": "You see a boat filled with people, yet there isn’t a single person on board. How?",
+            "options": [
+                { "text": "Everyone is below deck", "isCorrect": false },
+                { "text": "All are married", "isCorrect": true },
+                { "text": "Invisible people", "isCorrect": false },
+                { "text": "Boat was empty", "isCorrect": false }
+            ],
+            "answer": "All are married"
+            },
+            {
+            "question": "A man is pushed out of an airplane without a parachute. He survives. How?",
+            "options": [
+                { "text": "It was a training plane on the ground", "isCorrect": true },
+                { "text": "He grabbed a branch", "isCorrect": false },
+                { "text": "Wore armor", "isCorrect": false },
+                { "text": "He was dreaming", "isCorrect": false }
+            ],
+            "answer": "It was a training plane on the ground"
+            }
+        ],
+        "pro": [
+            {
+            "question": "A detective walks into a room and sees a man hanged, a puddle under him, and a table far away. How did the man die?",
+            "options": [
+                { "text": "He used an ice block to stand on", "isCorrect": true },
+                { "text": "He jumped", "isCorrect": false },
+                { "text": "Was pulled", "isCorrect": false },
+                { "text": "Levitation gone wrong", "isCorrect": false }
+            ],
+            "answer": "He used an ice block to stand on"
+            },
+            {
+            "question": "You wake up in a dark room with a match and 3 objects: a candle, a lamp, and a fireplace. Which do you light first?",
+            "options": [
+                { "text": "Candle", "isCorrect": false },
+                { "text": "Lamp", "isCorrect": false },
+                { "text": "Fireplace", "isCorrect": false },
+                { "text": "Match", "isCorrect": true }
+            ],
+            "answer": "Match"
+            },
+            {
+            "question": "A man gets a package, opens it, screams, and dies. Why?",
+            "options": [
+                { "text": "It had a bomb", "isCorrect": false },
+                { "text": "It contained his heart", "isCorrect": false },
+                { "text": "It was his parachute—he was a skydiver", "isCorrect": true },
+                { "text": "It was cursed", "isCorrect": false }
+            ],
+            "answer": "It was his parachute—he was a skydiver"
+            },
+            {
+            "question": "You find yourself in a room with 3 exits: one leads to a fire, one to assassins, and one to lions that haven’t eaten in 3 years. Which is safest?",
+            "options": [
+                { "text": "Fire", "isCorrect": false },
+                { "text": "Assassins", "isCorrect": false },
+                { "text": "Lions", "isCorrect": true },
+                { "text": "None", "isCorrect": false }
+            ],
+            "answer": "Lions"
+            },
+            {
+            "question": "A man is killed on a snowy day. His footsteps lead only from the road to the house. No return footsteps. Who is the killer?",
+            "options": [
+                { "text": "Mailman", "isCorrect": true },
+                { "text": "Neighbor", "isCorrect": false },
+                { "text": "Wife", "isCorrect": false },
+                { "text": "Gardener", "isCorrect": false }
+            ],
+            "answer": "Mailman"
+            }
+        ]
+    },
+
+
+
+
+
+    "deduction_puzzle": {
+        "beginner": [
+            {
+            "question": "A man is looking at a photograph of someone. His friend asks who it is. The man replies, 'Brothers and sisters, I have none. But that man's father is my father's son.' Who is in the photograph?",
+            "options": [
+                { "text": "His son", "isCorrect": true },
+                { "text": "His nephew", "isCorrect": false },
+                { "text": "His uncle", "isCorrect": false },
+                { "text": "Himself", "isCorrect": false }
+            ],
+            "answer": "His son"
+            },
+            {
+            "question": "Which number logically completes the series?\n2, 3, 5, 9, 17, ___",
+            "options": [
+                { "text": "33", "isCorrect": true },
+                { "text": "31", "isCorrect": false },
+                { "text": "35", "isCorrect": false },
+                { "text": "39", "isCorrect": false }
+            ],
+            "answer": "33"
+            },
+            {
+            "question": "Tom’s mother has three children: April, May, and ____?",
+            "options": [
+                { "text": "June", "isCorrect": false },
+                { "text": "July", "isCorrect": false },
+                { "text": "Tom", "isCorrect": true },
+                { "text": "August", "isCorrect": false }
+            ],
+            "answer": "Tom"
+            },
+            {
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+            "options": [
+                { "text": "Echo", "isCorrect": true },
+                { "text": "Whistle", "isCorrect": false },
+                { "text": "Ghost", "isCorrect": false },
+                { "text": "Shadow", "isCorrect": false }
+            ],
+            "answer": "Echo"
+            },
+            {
+            "question": "Which word does not belong?\nApple, Banana, Carrot, Mango",
+            "options": [
+                { "text": "Carrot", "isCorrect": true },
+                { "text": "Banana", "isCorrect": false },
+                { "text": "Mango", "isCorrect": false },
+                { "text": "Apple", "isCorrect": false }
+            ],
+            "answer": "Carrot"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Four people need to cross a bridge at night. They have one flashlight and the bridge can only hold two at a time. Their crossing times are 1, 2, 5, and 10 minutes. What’s the shortest total time for all to cross?",
+            "options": [
+                { "text": "17 minutes", "isCorrect": true },
+                { "text": "19 minutes", "isCorrect": false },
+                { "text": "21 minutes", "isCorrect": false },
+                { "text": "23 minutes", "isCorrect": false }
+            ],
+            "answer": "17 minutes"
+            },
+            {
+            "question": "In a certain code language:\n'FISH' is written as 'GJTI'.\nThen how is 'BIRD' written?",
+            "options": [
+                { "text": "CJSE", "isCorrect": true },
+                { "text": "CKSE", "isCorrect": false },
+                { "text": "AIRC", "isCorrect": false },
+                { "text": "CJRD", "isCorrect": false }
+            ],
+            "answer": "CJSE"
+            },
+            {
+            "question": "A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. How many brothers and sisters are there?",
+            "options": [
+                { "text": "4 sisters, 3 brothers", "isCorrect": true },
+                { "text": "3 sisters, 4 brothers", "isCorrect": false },
+                { "text": "5 sisters, 4 brothers", "isCorrect": false },
+                { "text": "3 sisters, 3 brothers", "isCorrect": false }
+            ],
+            "answer": "4 sisters, 3 brothers"
+            },
+            {
+            "question": "Which 4-digit number satisfies the condition:\nThe number is divisible by 7, 11, and 13 and is less than 1000?",
+            "options": [
+                { "text": "1001", "isCorrect": true },
+                { "text": "986", "isCorrect": false },
+                { "text": "1022", "isCorrect": false },
+                { "text": "990", "isCorrect": false }
+            ],
+            "answer": "1001"
+            },
+            {
+            "question": "You see a boat filled with people, yet there isn’t a single person on board. How is that possible?",
+            "options": [
+                { "text": "All are married", "isCorrect": true },
+                { "text": "They’re under the deck", "isCorrect": false },
+                { "text": "It's an illusion", "isCorrect": false },
+                { "text": "It’s a photo", "isCorrect": false }
+            ],
+            "answer": "All are married"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Three people check into a room that costs ₹300. They each pay ₹100. Later, the manager realizes the room only cost ₹250 and sends ₹50 with the bellboy. The bellboy gives each guest ₹10 and keeps ₹20. Now each guest has paid ₹90, totaling ₹270. Add the bellboy’s ₹20, and you get ₹290. Where is the missing ₹10?",
+            "options": [
+                { "text": "There is no missing amount; it's a misdirection", "isCorrect": true },
+                { "text": "Lost by the bellboy", "isCorrect": false },
+                { "text": "With the manager", "isCorrect": false },
+                { "text": "Still with guests", "isCorrect": false }
+            ],
+            "answer": "There is no missing amount; it's a misdirection"
+            },
+            {
+            "question": "A murderer is condemned to death. He has to choose one of three rooms:\n1. Room full of raging fires\n2. Room full of assassins with loaded guns\n3. Room full of lions that haven’t eaten in years\nWhich room is safest?",
+            "options": [
+                { "text": "Room 3", "isCorrect": true },
+                { "text": "Room 2", "isCorrect": false },
+                { "text": "Room 1", "isCorrect": false },
+                { "text": "None", "isCorrect": false }
+            ],
+            "answer": "Room 3"
+            },
+            {
+            "question": "A man is found murdered on a Sunday. The wife says she was sleeping, the cook says he was cooking breakfast, the gardener says he was planting seeds, the maid says she was getting the mail, and the butler says he was polishing the silverware. Who did it?",
+            "options": [
+                { "text": "The maid", "isCorrect": true },
+                { "text": "The cook", "isCorrect": false },
+                { "text": "The gardener", "isCorrect": false },
+                { "text": "The butler", "isCorrect": false }
+            ],
+            "answer": "The maid"
+            },
+            {
+            "question": "What comes next in the sequence:\n1, 11, 21, 1211, 111221, _____?",
+            "options": [
+                { "text": "312211", "isCorrect": true },
+                { "text": "13112221", "isCorrect": false },
+                { "text": "1113213211", "isCorrect": false },
+                { "text": "132211", "isCorrect": false }
+            ],
+            "answer": "312211"
+            },
+            {
+            "question": "You are in a room with 2 doors. One leads to death, the other to freedom. There are two guards—one always tells the truth, the other always lies. You can ask one question. What do you ask?",
+            "options": [
+                { "text": "If I asked the other guard which door leads to freedom, what would he say?", "isCorrect": true },
+                { "text": "Is this the door to freedom?", "isCorrect": false },
+                { "text": "Which door do you guard?", "isCorrect": false },
+                { "text": "Are you the liar?", "isCorrect": false }
+            ],
+            "answer": "If I asked the other guard which door leads to freedom, what would he say?"
+            }
+        ],
+        "pro": [
+            {
+            "question": "You are blindfolded and presented with 100 coins scattered randomly. You’re told 10 coins are heads, the rest tails. You can divide them into two piles and flip as many coins as you like. How do you create two piles with an equal number of heads?",
+            "options": [
+                { "text": "Separate any 10 coins, flip them all, and leave the rest", "isCorrect": true },
+                { "text": "Guess and flip random ones", "isCorrect": false },
+                { "text": "Separate 50 coins, flip half", "isCorrect": false },
+                { "text": "Flip none", "isCorrect": false }
+            ],
+            "answer": "Separate any 10 coins, flip them all, and leave the rest"
+            },
+            {
+            "question": "A clock chimes 5 times in 4 seconds. How many times will it chime in 10 seconds?",
+            "options": [
+                { "text": "11 times", "isCorrect": true },
+                { "text": "12 times", "isCorrect": false },
+                { "text": "10 times", "isCorrect": false },
+                { "text": "13 times", "isCorrect": false }
+            ],
+            "answer": "11 times"
+            },
+            {
+            "question": "A man was born in 1995 and died in 1953. How is this possible?",
+            "options": [
+                { "text": "He was born in room 1995 and died in room 1953", "isCorrect": true },
+                { "text": "Time travel", "isCorrect": false },
+                { "text": "He aged backward", "isCorrect": false },
+                { "text": "He lied about age", "isCorrect": false }
+            ],
+            "answer": "He was born in room 1995 and died in room 1953"
+            },
+            {
+            "question": "You are in a room with 3 light switches, each controlling one of three bulbs in another room. You may enter the bulb room only once. How do you find out which switch controls which bulb?",
+            "options": [
+                { "text": "Turn on 1 switch, wait, then turn it off. Turn on another and check heat", "isCorrect": true },
+                { "text": "Flip all switches rapidly", "isCorrect": false },
+                { "text": "Ask someone outside", "isCorrect": false },
+                { "text": "Try one at random", "isCorrect": false }
+            ],
+            "answer": "Turn on 1 switch, wait, then turn it off. Turn on another and check heat"
+            },
+            {
+            "question": "There are 3 boxes. One contains only apples, one only oranges, and one both. All are incorrectly labeled. You can pick one fruit from one box. How do you identify all correctly?",
+            "options": [
+                { "text": "Pick from the 'both' box—use deduction", "isCorrect": true },
+                { "text": "Pick randomly from any box", "isCorrect": false },
+                { "text": "Open all boxes", "isCorrect": false },
+                { "text": "Shake and listen", "isCorrect": false }
+            ],
+            "answer": "Pick from the 'both' box—use deduction"
+            }
+        ]
+    },
+
+
+
+    "pattern_solving": {
+        "beginner": [
+            {
+            "question": "Find the missing number in the pattern:\n2, 4, 8, 16, __",
+            "options": [
+                { "text": "18", "isCorrect": false },
+                { "text": "24", "isCorrect": false },
+                { "text": "32", "isCorrect": true },
+                { "text": "30", "isCorrect": false }
+            ],
+            "answer": "32"
+            },
+            {
+            "question": "What comes next in the pattern?\nA, D, G, J, __",
+            "options": [
+                { "text": "K", "isCorrect": false },
+                { "text": "M", "isCorrect": true },
+                { "text": "L", "isCorrect": false },
+                { "text": "N", "isCorrect": false }
+            ],
+            "answer": "M"
+            },
+            {
+            "question": "Which number completes the series?\n5, 10, 17, 26, __",
+            "options": [
+                { "text": "35", "isCorrect": true },
+                { "text": "34", "isCorrect": false },
+                { "text": "36", "isCorrect": false },
+                { "text": "37", "isCorrect": false }
+            ],
+            "answer": "35"
+            },
+            {
+            "question": "Find the missing letter:\nB, D, G, K, __",
+            "options": [
+                { "text": "M", "isCorrect": false },
+                { "text": "P", "isCorrect": true },
+                { "text": "O", "isCorrect": false },
+                { "text": "Q", "isCorrect": false }
+            ],
+            "answer": "P"
+            },
+            {
+            "question": "What comes next in the series?\n1, 1, 2, 3, 5, 8, __",
+            "options": [
+                { "text": "12", "isCorrect": false },
+                { "text": "13", "isCorrect": true },
+                { "text": "14", "isCorrect": false },
+                { "text": "11", "isCorrect": false }
+            ],
+            "answer": "13"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "What comes next?\n2, 6, 12, 20, 30, __",
+            "options": [
+                { "text": "42", "isCorrect": true },
+                { "text": "40", "isCorrect": false },
+                { "text": "44", "isCorrect": false },
+                { "text": "46", "isCorrect": false }
+            ],
+            "answer": "42"
+            },
+            {
+            "question": "Identify the pattern:\n1, 4, 9, 16, 25, __",
+            "options": [
+                { "text": "36", "isCorrect": true },
+                { "text": "32", "isCorrect": false },
+                { "text": "34", "isCorrect": false },
+                { "text": "38", "isCorrect": false }
+            ],
+            "answer": "36"
+            },
+            {
+            "question": "Which number comes next?\n3, 6, 11, 18, 27, __",
+            "options": [
+                { "text": "38", "isCorrect": true },
+                { "text": "36", "isCorrect": false },
+                { "text": "40", "isCorrect": false },
+                { "text": "39", "isCorrect": false }
+            ],
+            "answer": "38"
+            },
+            {
+            "question": "Find the next term in the sequence:\nZ, X, V, T, __",
+            "options": [
+                { "text": "S", "isCorrect": false },
+                { "text": "R", "isCorrect": false },
+                { "text": "Q", "isCorrect": true },
+                { "text": "P", "isCorrect": false }
+            ],
+            "answer": "Q"
+            },
+            {
+            "question": "What comes next?\n8, 27, 64, 125, __",
+            "options": [
+                { "text": "216", "isCorrect": true },
+                { "text": "150", "isCorrect": false },
+                { "text": "200", "isCorrect": false },
+                { "text": "170", "isCorrect": false }
+            ],
+            "answer": "216"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Find the missing number:\n121, 144, 169, __, 225",
+            "options": [
+                { "text": "196", "isCorrect": true },
+                { "text": "200", "isCorrect": false },
+                { "text": "186", "isCorrect": false },
+                { "text": "190", "isCorrect": false }
+            ],
+            "answer": "196"
+            },
+            {
+            "question": "What comes next?\n2, 3, 5, 9, 17, __",
+            "options": [
+                { "text": "33", "isCorrect": true },
+                { "text": "31", "isCorrect": false },
+                { "text": "30", "isCorrect": false },
+                { "text": "36", "isCorrect": false }
+            ],
+            "answer": "33"
+            },
+            {
+            "question": "Complete the series:\n10, 12, 16, 24, 40, __",
+            "options": [
+                { "text": "72", "isCorrect": true },
+                { "text": "60", "isCorrect": false },
+                { "text": "68", "isCorrect": false },
+                { "text": "64", "isCorrect": false }
+            ],
+            "answer": "72"
+            },
+            {
+            "question": "Which number fits the pattern?\n7, 14, 28, 56, __",
+            "options": [
+                { "text": "112", "isCorrect": true },
+                { "text": "108", "isCorrect": false },
+                { "text": "110", "isCorrect": false },
+                { "text": "120", "isCorrect": false }
+            ],
+            "answer": "112"
+            },
+            {
+            "question": "Find the missing number:\n1, 4, 10, 20, 35, __",
+            "options": [
+                { "text": "56", "isCorrect": true },
+                { "text": "54", "isCorrect": false },
+                { "text": "52", "isCorrect": false },
+                { "text": "58", "isCorrect": false }
+            ],
+            "answer": "56"
+            }
+        ],
+        "pro": [
+            {
+            "question": "Identify the next number in the pattern:\n1, 3, 6, 10, 15, __",
+            "options": [
+                { "text": "21", "isCorrect": true },
+                { "text": "22", "isCorrect": false },
+                { "text": "23", "isCorrect": false },
+                { "text": "24", "isCorrect": false }
+            ],
+            "answer": "21"
+            },
+            {
+            "question": "Find the next number in the Fibonacci-like series:\n1, 2, 3, 5, 8, 13, __",
+            "options": [
+                { "text": "21", "isCorrect": true },
+                { "text": "20", "isCorrect": false },
+                { "text": "19", "isCorrect": false },
+                { "text": "22", "isCorrect": false }
+            ],
+            "answer": "21"
+            },
+            {
+            "question": "What number comes next?\n6, 11, 21, 36, 56, __",
+            "options": [
+                { "text": "81", "isCorrect": true },
+                { "text": "80", "isCorrect": false },
+                { "text": "82", "isCorrect": false },
+                { "text": "83", "isCorrect": false }
+            ],
+            "answer": "81"
+            },
+            {
+            "question": "What comes next in the pattern?\n243, 81, 27, 9, __",
+            "options": [
+                { "text": "3", "isCorrect": true },
+                { "text": "4", "isCorrect": false },
+                { "text": "6", "isCorrect": false },
+                { "text": "5", "isCorrect": false }
+            ],
+            "answer": "3"
+            },
+            {
+            "question": "Which number completes the pattern?\n2, 6, 12, 20, 30, 42, __",
+            "options": [
+                { "text": "56", "isCorrect": true },
+                { "text": "50", "isCorrect": false },
+                { "text": "54", "isCorrect": false },
+                { "text": "52", "isCorrect": false }
+            ],
+            "answer": "56"
+            }
+        ]
+    },
+
+
+
+    "witness_statement": {
+        "beginner": [
+            {
+            "question": "Four suspects gave the following statements:\nA: I didn’t do it.\nB: C did it.\nC: D did it.\nD: B lied.\nIf only one of them is telling the truth, who committed the crime?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": true },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "C"
+            },
+            {
+            "question": "Three suspects: Tom, Jerry, and Spike.\nOne of them stole the diamond.\nTom said: 'Jerry did it.'\nJerry said: 'Spike did it.'\nSpike said: 'Jerry is lying.'\nIf only one is telling the truth, who stole the diamond?",
+            "options": [
+                { "text": "Tom", "isCorrect": false },
+                { "text": "Jerry", "isCorrect": true },
+                { "text": "Spike", "isCorrect": false },
+                { "text": "None", "isCorrect": false }
+            ],
+            "answer": "Jerry"
+            },
+            {
+            "question": "Only one of the suspects is telling the truth:\nA: I am innocent.\nB: C is guilty.\nC: A is guilty.\nWho is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": true },
+                { "text": "C", "isCorrect": false },
+                { "text": "None", "isCorrect": false }
+            ],
+            "answer": "B"
+            },
+            {
+            "question": "Detective asked:\nA: B did it.\nB: D did it.\nC: I didn’t do it.\nD: B is lying.\nIf only one is telling the truth, who is the thief?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": true },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "C"
+            },
+            {
+            "question": "Three people were questioned:\nA: I’m not the thief.\nB: A is the thief.\nC: I didn’t steal it.\nIf two statements are false, who is the thief?",
+            "options": [
+                { "text": "A", "isCorrect": true },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "None", "isCorrect": false }
+            ],
+            "answer": "A"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Suspects:\nA: I didn’t do it.\nB: C did it.\nC: A is lying.\nD: B is lying.\nIf two statements are true, who is the culprit?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": true },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "C"
+            },
+            {
+            "question": "Four suspects made statements:\nA: I didn’t do it.\nB: A is guilty.\nC: D is innocent.\nD: C is guilty.\nIf only two are telling the truth, who is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": true }
+            ],
+            "answer": "D"
+            },
+            {
+            "question": "Statements:\nA: I am innocent.\nB: D did it.\nC: B did it.\nD: A is innocent.\nIf two are lying and two are truthful, who is the thief?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": true },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "B"
+            },
+            {
+            "question": "Four suspects:\nA: I saw C steal it.\nB: C didn’t steal.\nC: I am innocent.\nD: B is lying.\nOnly two statements are true. Who is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": true },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "A"
+            },
+            {
+            "question": "Only one is guilty and tells the truth. Others lie.\nA: B stole it.\nB: D stole it.\nC: I didn’t do it.\nD: C stole it.\nWho is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": true },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "B"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Four people:\nA: I didn’t do it.\nB: A is lying.\nC: B is lying.\nD: A is telling the truth.\nIf only one tells the truth, who is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": true },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "A"
+            },
+            {
+            "question": "Detective asked:\nA: It’s B.\nB: C did it.\nC: D is lying.\nD: B is innocent.\nExactly two statements are true. Who is the criminal?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": true },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "C"
+            },
+            {
+            "question": "Suspects:\nA: I didn’t do it.\nB: A is guilty.\nC: D did it.\nD: A is innocent.\nIf exactly two statements are false, who did it?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": true },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "B"
+            },
+            {
+            "question": "A: It wasn’t me.\nB: It was C.\nC: D is lying.\nD: A did it.\nExactly two people lie. Who is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": true },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "B"
+            },
+            {
+            "question": "Three suspects:\nA: B did it.\nB: I didn't do it.\nC: B is lying.\nOnly one statement is true. Who is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": true },
+                { "text": "None", "isCorrect": false }
+            ],
+            "answer": "C"
+            }
+        ],
+        "pro": [
+            {
+            "question": "Four suspects. Only one tells the truth:\nA: I’m innocent.\nB: A is lying.\nC: D is innocent.\nD: C is guilty.\nWho committed the crime?",
+            "options": [
+                { "text": "A", "isCorrect": true },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "A"
+            },
+            {
+            "question": "Statements:\nA: I saw B do it.\nB: C was with me.\nC: I was alone.\nD: C is lying.\nOnly one statement is false. Who is the culprit?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": true },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "C"
+            },
+            {
+            "question": "Four friends:\nA: D did it.\nB: A is lying.\nC: D is innocent.\nD: B is lying.\nExactly one lies. Who is the thief?",
+            "options": [
+                { "text": "A", "isCorrect": true },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "A"
+            },
+            {
+            "question": "A: I didn’t do it.\nB: D did it.\nC: I am innocent.\nD: B is lying.\nIf only one is lying, who did it?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": true },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": false }
+            ],
+            "answer": "B"
+            },
+            {
+            "question": "A: It wasn’t B.\nB: It wasn’t C.\nC: A is innocent.\nD: B is guilty.\nOnly one speaks truth. Who is guilty?",
+            "options": [
+                { "text": "A", "isCorrect": false },
+                { "text": "B", "isCorrect": false },
+                { "text": "C", "isCorrect": false },
+                { "text": "D", "isCorrect": true }
+            ],
+            "answer": "D"
+            }
+        ]
+    }
+
+
+
+
+}

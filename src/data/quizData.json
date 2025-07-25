@@ -1,0 +1,1722 @@
+{
+  "c": {
+    "beginner": [
+      {
+        "question": "What is the size of int in C?",
+        "options": [
+          { "text": "2", "isCorrect": false },
+          { "text": "4", "isCorrect": false },
+          { "text": "Depends", "isCorrect": true },
+          { "text": "None", "isCorrect": false }
+        ],
+        "answer": "Depends"
+      },
+      {
+        "question": "Which of the following is a correct identifier in C?",
+        "options": [
+          { "text": "1variable", "isCorrect": false },
+          { "text": "_var_name", "isCorrect": true },
+          { "text": "@var", "isCorrect": false },
+          { "text": "var-name", "isCorrect": false }
+        ],
+        "answer": "_var_name"
+      },
+      {
+        "question": "What is the output of: printf(\"%d\", sizeof('A'));",
+        "options": [
+          { "text": "1", "isCorrect": false },
+          { "text": "2", "isCorrect": false },
+          { "text": "4", "isCorrect": true },
+          { "text": "8", "isCorrect": false }
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which format specifier is used to print an address?",
+        "options": [
+          { "text": "%p", "isCorrect": true },
+          { "text": "%d", "isCorrect": false },
+          { "text": "%x", "isCorrect": false },
+          { "text": "%u", "isCorrect": false }
+        ],
+        "answer": "%p"
+      },
+      {
+        "question": "Which of these is not a valid storage class in C?",
+        "options": [
+          { "text": "auto", "isCorrect": false },
+          { "text": "register", "isCorrect": false },
+          { "text": "static", "isCorrect": false },
+          { "text": "mutable", "isCorrect": true }
+        ],
+        "answer": "mutable"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the output of:\nprintf(\"%d\", (5, 10, 15));",
+        "options": [
+          { "text": "5", "isCorrect": false },
+          { "text": "10", "isCorrect": false },
+          { "text": "15", "isCorrect": true },
+          { "text": "Syntax Error", "isCorrect": false }
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "What does the 'volatile' keyword indicate in C?",
+        "options": [
+          { "text": "Variable is constant", "isCorrect": false },
+          { "text": "Value can be changed unexpectedly", "isCorrect": true },
+          { "text": "Variable is global", "isCorrect": false },
+          { "text": "Compiler should optimize it", "isCorrect": false }
+        ],
+        "answer": "Value can be changed unexpectedly"
+      },
+      {
+        "question": "What is the output of:\nint a = 10;\nprintf(\"%d\", a++ + ++a);",
+        "options": [
+          { "text": "21", "isCorrect": false },
+          { "text": "22", "isCorrect": true },
+          { "text": "20", "isCorrect": false },
+          { "text": "Undefined", "isCorrect": false }
+        ],
+        "answer": "22"
+      },
+      {
+        "question": "What is the output of: printf(\"%d\", sizeof(printf(\"Hello\")));",
+        "options": [
+          { "text": "5", "isCorrect": false },
+          { "text": "6", "isCorrect": false },
+          { "text": "4", "isCorrect": true },
+          { "text": "Hello", "isCorrect": false }
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which operator has the highest precedence?",
+        "options": [
+          { "text": "++ (Increment)", "isCorrect": true },
+          { "text": "* (Multiplication)", "isCorrect": false },
+          { "text": "&& (Logical AND)", "isCorrect": false },
+          { "text": "= (Assignment)", "isCorrect": false }
+        ],
+        "answer": "++ (Increment)"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the output of:\nint i = 3;\nprintf(\"%d\", i+++i);",
+        "options": [
+          { "text": "6", "isCorrect": false },
+          { "text": "7", "isCorrect": false },
+          { "text": "Compilation Error", "isCorrect": false },
+          { "text": "Undefined behavior", "isCorrect": true }
+        ],
+        "answer": "Undefined behavior"
+      },
+      {
+        "question": "Which function is used to allocate memory and initialize to 0?",
+        "options": [
+          { "text": "malloc()", "isCorrect": false },
+          { "text": "calloc()", "isCorrect": true },
+          { "text": "realloc()", "isCorrect": false },
+          { "text": "free()", "isCorrect": false }
+        ],
+        "answer": "calloc()"
+      },
+      {
+        "question": "What is the result of:\nint a = 5;\na = a++ + ++a;",
+        "options": [
+          { "text": "11", "isCorrect": true },
+          { "text": "10", "isCorrect": false },
+          { "text": "9", "isCorrect": false },
+          { "text": "Undefined", "isCorrect": false }
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "Which is true for dangling pointer?",
+        "options": [
+          { "text": "Points to freed memory", "isCorrect": true },
+          { "text": "Points to NULL", "isCorrect": false },
+          { "text": "Points to stack always", "isCorrect": false },
+          { "text": "Never occurs in C", "isCorrect": false }
+        ],
+        "answer": "Points to freed memory"
+      },
+      {
+        "question": "What will this output:\nint *p;\nprintf(\"%d\", *p);",
+        "options": [
+          { "text": "0", "isCorrect": false },
+          { "text": "Garbage value", "isCorrect": false },
+          { "text": "Segmentation fault", "isCorrect": true },
+          { "text": "Compiler error", "isCorrect": false }
+        ],
+        "answer": "Segmentation fault"
+      }
+    ],
+    "pro": [
+      {
+        "question": "What is the result of this: int a = 0;\nif(a = 5) printf(\"Hello\"); else\nprintf(\"Bye\");",
+        "options": [
+          { "text": "Hello", "isCorrect": true },
+          { "text": "Bye", "isCorrect": false },
+          { "text": "Compiler error", "isCorrect": false },
+          { "text": "Nothing", "isCorrect": false }
+        ],
+        "answer": "Hello"
+      },
+      {
+        "question": "What is the output of: printf(\"%d\", main);",
+        "options": [
+          { "text": "Memory address", "isCorrect": true },
+          { "text": "main", "isCorrect": false },
+          { "text": "0", "isCorrect": false },
+          { "text": "Compiler error", "isCorrect": false }
+        ],
+        "answer": "Memory address"
+      },
+      {
+        "question": "Can a function return an array in C?",
+        "options": [
+          { "text": "Yes", "isCorrect": false },
+          { "text": "No", "isCorrect": true },
+          { "text": "Sometimes", "isCorrect": false },
+          { "text": "Only with malloc", "isCorrect": false }
+        ],
+        "answer": "No"
+      },
+      {
+        "question": "Which of the following leads to undefined behavior?",
+        "options": [
+          { "text": "Accessing out-of-bound array", "isCorrect": true },
+          { "text": "Using malloc", "isCorrect": false },
+          { "text": "Using printf", "isCorrect": false },
+          { "text": "Using scanf", "isCorrect": false }
+        ],
+        "answer": "Accessing out-of-bound array"
+      },
+      {
+        "question": "What is output: void main() { char a[] = \"hello\";\n a[0] = 'H';\n printf(\"%s\", a); }",
+        "options": [
+          { "text": "Hello", "isCorrect": true },
+          { "text": "hello", "isCorrect": false },
+          { "text": "Compilation Error", "isCorrect": false },
+          { "text": "Segmentation Fault", "isCorrect": false }
+        ],
+        "answer": "Hello"
+      }
+    ]
+  },
+
+
+
+
+  
+
+
+
+  "java": {
+    "beginner": [
+      {
+        "question": "What is the size of int in Java?",
+        "options": [
+          { "text": "2 bytes", "isCorrect": false },
+          { "text": "4 bytes", "isCorrect": true },
+          { "text": "8 bytes", "isCorrect": false },
+          { "text": "Depends on OS", "isCorrect": false }
+        ],
+        "answer": "4 bytes"
+      },
+      {
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": [
+          { "text": "implement", "isCorrect": false },
+          { "text": "inherits", "isCorrect": false },
+          { "text": "extends", "isCorrect": true },
+          { "text": "instanceof", "isCorrect": false }
+        ],
+        "answer": "extends"
+      },
+      {
+        "question": "Which is the entry point of any Java program?",
+        "options": [
+          { "text": "init()", "isCorrect": false },
+          { "text": "start()", "isCorrect": false },
+          { "text": "main()", "isCorrect": true },
+          { "text": "run()", "isCorrect": false }
+        ],
+        "answer": "main()"
+      },
+      {
+        "question": "Which of these is not a primitive type?",
+        "options": [
+          { "text": "int", "isCorrect": false },
+          { "text": "float", "isCorrect": false },
+          { "text": "String", "isCorrect": true },
+          { "text": "boolean", "isCorrect": false }
+        ],
+        "answer": "String"
+      },
+      {
+        "question": "What is JVM?",
+        "options": [
+          { "text": "Java Variable Method", "isCorrect": false },
+          { "text": "Java Virtual Machine", "isCorrect": true },
+          { "text": "Java Verified Machine", "isCorrect": false },
+          { "text": "None of these", "isCorrect": false }
+        ],
+        "answer": "Java Virtual Machine"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What will be the output of:\nSystem.out.println(10 + 20 + \"30\" + 40);",
+        "options": [
+          { "text": "303040", "isCorrect": false },
+          { "text": "10203040", "isCorrect": false },
+          { "text": "3030", "isCorrect": false },
+          { "text": "303040", "isCorrect": true }
+        ],
+        "answer": "303040"
+      },
+      {
+        "question": "Which collection class allows you to grow or shrink its size and provides indexed access to its elements, but is not synchronized?",
+        "options": [
+          { "text": "ArrayList", "isCorrect": true },
+          { "text": "Vector", "isCorrect": false },
+          { "text": "HashSet", "isCorrect": false },
+          { "text": "TreeMap", "isCorrect": false }
+        ],
+        "answer": "ArrayList"
+      },
+      {
+        "question": "Which of these exceptions is thrown when a negative array size is declared?",
+        "options": [
+          { "text": "NullPointerException", "isCorrect": false },
+          { "text": "ArithmeticException", "isCorrect": false },
+          { "text": "NegativeArraySizeException", "isCorrect": true },
+          { "text": "IndexOutOfBoundsException", "isCorrect": false }
+        ],
+        "answer": "NegativeArraySizeException"
+      },
+      {
+        "question": "Which of these classes are final?",
+        "options": [
+          { "text": "System", "isCorrect": false },
+          { "text": "String", "isCorrect": true },
+          { "text": "Object", "isCorrect": false },
+          { "text": "Scanner", "isCorrect": false }
+        ],
+        "answer": "String"
+      },
+      {
+        "question": "Which keyword is used for memory management in Java?",
+        "options": [
+          { "text": "malloc", "isCorrect": false },
+          { "text": "delete", "isCorrect": false },
+          { "text": "new", "isCorrect": true },
+          { "text": "allocate", "isCorrect": false }
+        ],
+        "answer": "new"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which design pattern ensures only one instance of a class exists?",
+        "options": [
+          { "text": "Factory", "isCorrect": false },
+          { "text": "Builder", "isCorrect": false },
+          { "text": "Singleton", "isCorrect": true },
+          { "text": "Prototype", "isCorrect": false }
+        ],
+        "answer": "Singleton"
+      },
+      {
+        "question": "What is the output of this code:\nSystem.out.println(\"\" + null);",
+        "options": [
+          { "text": "null", "isCorrect": true },
+          { "text": "0", "isCorrect": false },
+          { "text": "Exception", "isCorrect": false },
+          { "text": "Compilation error", "isCorrect": false }
+        ],
+        "answer": "null"
+      },
+      {
+        "question": "Which interface needs to be implemented to create a thread?",
+        "options": [
+          { "text": "Runnable", "isCorrect": true },
+          { "text": "Threadable", "isCorrect": false },
+          { "text": "Executor", "isCorrect": false },
+          { "text": "Callable", "isCorrect": false }
+        ],
+        "answer": "Runnable"
+      },
+      {
+        "question": "Which of these methods can be used to prevent thread execution?",
+        "options": [
+          { "text": "wait()", "isCorrect": true },
+          { "text": "notify()", "isCorrect": false },
+          { "text": "start()", "isCorrect": false },
+          { "text": "run()", "isCorrect": false }
+        ],
+        "answer": "wait()"
+      },
+      {
+        "question": "What is the default value of a local variable?",
+        "options": [
+          { "text": "null", "isCorrect": false },
+          { "text": "0", "isCorrect": false },
+          { "text": "Depends", "isCorrect": false },
+          { "text": "Not assigned / Compilation Error", "isCorrect": true }
+        ],
+        "answer": "Not assigned / Compilation Error"
+      }
+    ],
+    "pro": [
+      {
+        "question": "Can Java use multiple inheritance directly through classes?",
+        "options": [
+          { "text": "Yes", "isCorrect": false },
+          { "text": "No", "isCorrect": true },
+          { "text": "Only for interfaces", "isCorrect": false },
+          { "text": "Depends on JVM", "isCorrect": false }
+        ],
+        "answer": "No"
+      },
+      {
+        "question": "Which of these keywords restricts inheritance?",
+        "options": [
+          { "text": "static", "isCorrect": false },
+          { "text": "final", "isCorrect": true },
+          { "text": "abstract", "isCorrect": false },
+          { "text": "private", "isCorrect": false }
+        ],
+        "answer": "final"
+      },
+      {
+        "question": "Which operator is used to check object type?",
+        "options": [
+          { "text": "instanceof", "isCorrect": true },
+          { "text": "==", "isCorrect": false },
+          { "text": "equals()", "isCorrect": false },
+          { "text": "::", "isCorrect": false }
+        ],
+        "answer": "instanceof"
+      },
+      {
+        "question": "What will happen if main() is not static?",
+        "options": [
+          { "text": "It will compile", "isCorrect": false },
+          { "text": "It will throw runtime error", "isCorrect": false },
+          { "text": "It won’t execute", "isCorrect": true },
+          { "text": "None", "isCorrect": false }
+        ],
+        "answer": "It won’t execute"
+      },
+      {
+        "question": "Which keyword is used to avoid method overriding?",
+        "options": [
+          { "text": "super", "isCorrect": false },
+          { "text": "static", "isCorrect": false },
+          { "text": "final", "isCorrect": true },
+          { "text": "abstract", "isCorrect": false }
+        ],
+        "answer": "final"
+      }
+    ]
+  },
+
+
+
+
+
+  "python": {
+    "beginner": [
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+          { "text": "function", "isCorrect": false },
+          { "text": "def", "isCorrect": true },
+          { "text": "func", "isCorrect": false },
+          { "text": "define", "isCorrect": false }
+        ],
+        "answer": "def"
+      },
+      {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+          { "text": "List", "isCorrect": false },
+          { "text": "Dictionary", "isCorrect": false },
+          { "text": "Set", "isCorrect": false },
+          { "text": "Tuple", "isCorrect": true }
+        ],
+        "answer": "Tuple"
+      },
+      {
+        "question": "How do you insert comments in Python code?",
+        "options": [
+          { "text": "// comment", "isCorrect": false },
+          { "text": "# comment", "isCorrect": true },
+          { "text": "<!-- comment -->", "isCorrect": false },
+          { "text": "/* comment */", "isCorrect": false }
+        ],
+        "answer": "# comment"
+      },
+      {
+        "question": "What will be the output of:\nprint(2 ** 3)?",
+        "options": [
+          { "text": "6", "isCorrect": false },
+          { "text": "8", "isCorrect": true },
+          { "text": "9", "isCorrect": false },
+          { "text": "16", "isCorrect": false }
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is the correct file extension for Python files?",
+        "options": [
+          { "text": ".pyth", "isCorrect": false },
+          { "text": ".pt", "isCorrect": false },
+          { "text": ".py", "isCorrect": true },
+          { "text": ".p", "isCorrect": false }
+        ],
+        "answer": ".py"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What is the output of:\nprint('Hello' * 3)?",
+        "options": [
+          { "text": "Hello3", "isCorrect": false },
+          { "text": "HelloHelloHello", "isCorrect": true },
+          { "text": "Error", "isCorrect": false },
+          { "text": "3Hello", "isCorrect": false }
+        ],
+        "answer": "HelloHelloHello"
+      },
+      {
+        "question": "What is the purpose of the 'pass' statement in Python?",
+        "options": [
+          { "text": "Exits the program", "isCorrect": false },
+          { "text": "Skips the iteration", "isCorrect": false },
+          { "text": "Does nothing", "isCorrect": true },
+          { "text": "Pauses the execution", "isCorrect": false }
+        ],
+        "answer": "Does nothing"
+      },
+      {
+        "question": "Which function converts a string to a list of characters?",
+        "options": [
+          { "text": "split()", "isCorrect": false },
+          { "text": "char()", "isCorrect": false },
+          { "text": "list()", "isCorrect": true },
+          { "text": "strtolist()", "isCorrect": false }
+        ],
+        "answer": "list()"
+      },
+      {
+        "question": "What will be the output of:\nprint(bool('False'))?",
+        "options": [
+          { "text": "False", "isCorrect": false },
+          { "text": "True", "isCorrect": true },
+          { "text": "0", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "True"
+      },
+      {
+        "question": "What does the 'is' operator check in Python?",
+        "options": [
+          { "text": "Equality of values", "isCorrect": false },
+          { "text": "Identity (same object in memory)", "isCorrect": true },
+          { "text": "Inequality", "isCorrect": false },
+          { "text": "Reference count", "isCorrect": false }
+        ],
+        "answer": "Identity (same object in memory)"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the output of:\nprint([i for i in range(3)])?",
+        "options": [
+          { "text": "range(3)", "isCorrect": false },
+          { "text": "[0, 1, 2]", "isCorrect": true },
+          { "text": "(0, 1, 2)", "isCorrect": false },
+          { "text": "{0, 1, 2}", "isCorrect": false }
+        ],
+        "answer": "[0, 1, 2]"
+      },
+      {
+        "question": "Which of the following is a generator expression?",
+        "options": [
+          { "text": "[x*x for x in range(5)]", "isCorrect": false },
+          { "text": "{x*x for x in range(5)}", "isCorrect": false },
+          { "text": "(x*x for x in range(5))", "isCorrect": true },
+          { "text": "x*x for x in range(5)", "isCorrect": false }
+        ],
+        "answer": "(x*x for x in range(5))"
+      },
+      {
+        "question": "Which function is used to sort a list in reverse order?",
+        "options": [
+          { "text": "sorted(list, reverse=True)", "isCorrect": true },
+          { "text": "sort(list, True)", "isCorrect": false },
+          { "text": "list.sort(reverse=False)", "isCorrect": false },
+          { "text": "reverse(list)", "isCorrect": false }
+        ],
+        "answer": "sorted(list, reverse=True)"
+      },
+      {
+        "question": "What is the output of:\nx = [1, 2, 3]\nprint(id(x) == id(list(x)))?",
+        "options": [
+          { "text": "True", "isCorrect": false },
+          { "text": "False", "isCorrect": true },
+          { "text": "Depends", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "False"
+      },
+      {
+        "question": "Which module is used for working with regular expressions?",
+        "options": [
+          { "text": "regex", "isCorrect": false },
+          { "text": "re", "isCorrect": true },
+          { "text": "expressions", "isCorrect": false },
+          { "text": "pyregex", "isCorrect": false }
+        ],
+        "answer": "re"
+      }
+    ],
+    "pro": [
+      {
+        "question": "What is the output of:\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)?",
+        "options": [
+          { "text": "[1, 2, 3]", "isCorrect": false },
+          { "text": "[1, 2, 3, 4]", "isCorrect": true },
+          { "text": "[4]", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "[1, 2, 3, 4]"
+      },
+      {
+        "question": "What is the output of:\ndef f(a, b=[]):\n  b.append(a)\n  return b\nprint(f(1))\nprint(f(2))",
+        "options": [
+          { "text": "[1], [2]", "isCorrect": false },
+          { "text": "[1], [1, 2]", "isCorrect": true },
+          { "text": "[1, 2], [1, 2]", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "[1], [1, 2]"
+      },
+      {
+        "question": "Which is true about Python’s Global Interpreter Lock (GIL)?",
+        "options": [
+          { "text": "Python doesn't have GIL", "isCorrect": false },
+          { "text": "It allows true parallel threads", "isCorrect": false },
+          { "text": "Only one thread executes Python bytecode at a time", "isCorrect": true },
+          { "text": "GIL improves performance in multi-threaded apps", "isCorrect": false }
+        ],
+        "answer": "Only one thread executes Python bytecode at a time"
+      },
+      {
+        "question": "What will this output:\ndef foo():\n try:\n  return 1\n finally:\n  return 2\nprint(foo())",
+        "options": [
+          { "text": "1", "isCorrect": false },
+          { "text": "2", "isCorrect": true },
+          { "text": "Error", "isCorrect": false },
+          { "text": "None", "isCorrect": false }
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "Which method is called when an object is created?",
+        "options": [
+          { "text": "__start__", "isCorrect": false },
+          { "text": "__begin__", "isCorrect": false },
+          { "text": "__init__", "isCorrect": true },
+          { "text": "__create__", "isCorrect": false }
+        ],
+        "answer": "__init__"
+      }
+    ]
+  },
+
+
+
+
+  "c_plus_plus": {
+    "beginner": [
+      {
+        "question": "Which header file is required to use 'cout' in C++?",
+        "options": [
+          { "text": "<iostream>", "isCorrect": true },
+          { "text": "<stdio.h>", "isCorrect": false },
+          { "text": "<stdlib.h>", "isCorrect": false },
+          { "text": "<conio.h>", "isCorrect": false }
+        ],
+        "answer": "<iostream>"
+      },
+      {
+        "question": "What is the correct way to declare a constant variable in C++?",
+        "options": [
+          { "text": "int const x = 10;", "isCorrect": true },
+          { "text": "constant int x = 10;", "isCorrect": false },
+          { "text": "const int: x = 10;", "isCorrect": false },
+          { "text": "int x = constant 10;", "isCorrect": false }
+        ],
+        "answer": "int const x = 10;"
+      },
+      {
+        "question": "Which operator is used to allocate memory dynamically in C++?",
+        "options": [
+          { "text": "malloc", "isCorrect": false },
+          { "text": "calloc", "isCorrect": false },
+          { "text": "new", "isCorrect": true },
+          { "text": "alloc", "isCorrect": false }
+        ],
+        "answer": "new"
+      },
+      {
+        "question": "What does OOP stand for?",
+        "options": [
+          { "text": "Object-Oriented Programming", "isCorrect": true },
+          { "text": "Object Over Procedure", "isCorrect": false },
+          { "text": "Optimal Object Process", "isCorrect": false },
+          { "text": "Order Of Precedence", "isCorrect": false }
+        ],
+        "answer": "Object-Oriented Programming"
+      },
+      {
+        "question": "Which of these is not a basic data type in C++?",
+        "options": [
+          { "text": "float", "isCorrect": false },
+          { "text": "double", "isCorrect": false },
+          { "text": "real", "isCorrect": true },
+          { "text": "int", "isCorrect": false }
+        ],
+        "answer": "real"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which concept allows the same function to behave differently in C++?",
+        "options": [
+          { "text": "Abstraction", "isCorrect": false },
+          { "text": "Encapsulation", "isCorrect": false },
+          { "text": "Polymorphism", "isCorrect": true },
+          { "text": "Inheritance", "isCorrect": false }
+        ],
+        "answer": "Polymorphism"
+      },
+      {
+        "question": "What is the output of:\nint a = 10;\ncout << ++a + a++;",
+        "options": [
+          { "text": "21", "isCorrect": false },
+          { "text": "22", "isCorrect": true },
+          { "text": "20", "isCorrect": false },
+          { "text": "Undefined", "isCorrect": false }
+        ],
+        "answer": "22"
+      },
+      {
+        "question": "Which keyword is used to inherit a class publicly in C++?",
+        "options": [
+          { "text": "extends", "isCorrect": false },
+          { "text": "inherits", "isCorrect": false },
+          { "text": "public", "isCorrect": true },
+          { "text": "using", "isCorrect": false }
+        ],
+        "answer": "public"
+      },
+      {
+        "question": "Which of the following supports function overloading?",
+        "options": [
+          { "text": "Same name, different parameters", "isCorrect": true },
+          { "text": "Same name, same parameters", "isCorrect": false },
+          { "text": "Different name, same parameters", "isCorrect": false },
+          { "text": "None of the above", "isCorrect": false }
+        ],
+        "answer": "Same name, different parameters"
+      },
+      {
+        "question": "Which keyword is used to define a virtual function?",
+        "options": [
+          { "text": "virtual", "isCorrect": true },
+          { "text": "override", "isCorrect": false },
+          { "text": "abstract", "isCorrect": false },
+          { "text": "final", "isCorrect": false }
+        ],
+        "answer": "virtual"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a pure virtual function?",
+        "options": [
+          { "text": "A function with no implementation", "isCorrect": true },
+          { "text": "A function that cannot be overridden", "isCorrect": false },
+          { "text": "A private function", "isCorrect": false },
+          { "text": "A static function", "isCorrect": false }
+        ],
+        "answer": "A function with no implementation"
+      },
+      {
+        "question": "What is the output of:\nint *p = NULL;\ncout << *p;",
+        "options": [
+          { "text": "0", "isCorrect": false },
+          { "text": "Segmentation fault", "isCorrect": true },
+          { "text": "Undefined", "isCorrect": false },
+          { "text": "Compile error", "isCorrect": false }
+        ],
+        "answer": "Segmentation fault"
+      },
+      {
+        "question": "Which class allows only one instance in C++?",
+        "options": [
+          { "text": "Singleton", "isCorrect": true },
+          { "text": "Static", "isCorrect": false },
+          { "text": "Immutable", "isCorrect": false },
+          { "text": "Friend", "isCorrect": false }
+        ],
+        "answer": "Singleton"
+      },
+      {
+        "question": "Which mechanism hides implementation details?",
+        "options": [
+          { "text": "Encapsulation", "isCorrect": true },
+          { "text": "Abstraction", "isCorrect": false },
+          { "text": "Inheritance", "isCorrect": false },
+          { "text": "Overloading", "isCorrect": false }
+        ],
+        "answer": "Encapsulation"
+      },
+      {
+        "question": "What is a friend function?",
+        "options": [
+          { "text": "Accesses private members", "isCorrect": true },
+          { "text": "Inherits from base class", "isCorrect": false },
+          { "text": "Cannot access class data", "isCorrect": false },
+          { "text": "Always static", "isCorrect": false }
+        ],
+        "answer": "Accesses private members"
+      }
+    ],
+    "pro": [
+      {
+        "question": "Which of these causes slicing in inheritance?",
+        "options": [
+          { "text": "Assigning derived object to base object", "isCorrect": true },
+          { "text": "Using pointers", "isCorrect": false },
+          { "text": "Calling virtual function", "isCorrect": false },
+          { "text": "Overloading functions", "isCorrect": false }
+        ],
+        "answer": "Assigning derived object to base object"
+      },
+      {
+        "question": "Which of the following is not allowed in C++?",
+        "options": [
+          { "text": "Returning a reference to a local variable", "isCorrect": true },
+          { "text": "Returning a pointer", "isCorrect": false },
+          { "text": "Returning an object", "isCorrect": false },
+          { "text": "Returning by value", "isCorrect": false }
+        ],
+        "answer": "Returning a reference to a local variable"
+      },
+      {
+        "question": "Which of the following is true about delete operator?",
+        "options": [
+          { "text": "It deallocates memory", "isCorrect": true },
+          { "text": "It can be used with malloc", "isCorrect": false },
+          { "text": "It doesn't free memory", "isCorrect": false },
+          { "text": "None of the above", "isCorrect": false }
+        ],
+        "answer": "It deallocates memory"
+      },
+      {
+        "question": "What will this print:\nint x = 10;\nint y = x++ + ++x;\ncout << y;",
+        "options": [
+          { "text": "22", "isCorrect": true },
+          { "text": "21", "isCorrect": false },
+          { "text": "20", "isCorrect": false },
+          { "text": "11", "isCorrect": false }
+        ],
+        "answer": "22"
+      },
+      {
+        "question": "What is the result of:\nclass A { virtual void show() = 0; };",
+        "options": [
+          { "text": "Abstract class", "isCorrect": true },
+          { "text": "Normal class", "isCorrect": false },
+          { "text": "Static class", "isCorrect": false },
+          { "text": "None of the above", "isCorrect": false }
+        ],
+        "answer": "Abstract class"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+  "javascript": {
+    "beginner": [
+      {
+        "question": "Which symbol is used for comments in JavaScript?",
+        "options": [
+          { "text": "//", "isCorrect": true },
+          { "text": "/*", "isCorrect": false },
+          { "text": "#", "isCorrect": false },
+          { "text": "<!--", "isCorrect": false }
+        ],
+        "answer": "//"
+      },
+      {
+        "question": "What is the output of:\nconsole.log(typeof null);",
+        "options": [
+          { "text": "'null'", "isCorrect": false },
+          { "text": "'object'", "isCorrect": true },
+          { "text": "'undefined'", "isCorrect": false },
+          { "text": "'boolean'", "isCorrect": false }
+        ],
+        "answer": "'object'"
+      },
+      {
+        "question": "Which keyword declares a block-scoped variable in JavaScript?",
+        "options": [
+          { "text": "var", "isCorrect": false },
+          { "text": "let", "isCorrect": true },
+          { "text": "int", "isCorrect": false },
+          { "text": "dim", "isCorrect": false }
+        ],
+        "answer": "let"
+      },
+      {
+        "question": "Which function converts a string to an integer?",
+        "options": [
+          { "text": "parseInt()", "isCorrect": true },
+          { "text": "parse()", "isCorrect": false },
+          { "text": "stringToInt()", "isCorrect": false },
+          { "text": "toInteger()", "isCorrect": false }
+        ],
+        "answer": "parseInt()"
+      },
+      {
+        "question": "What is the correct syntax to call a function named foo?",
+        "options": [
+          { "text": "foo()", "isCorrect": true },
+          { "text": "call foo", "isCorrect": false },
+          { "text": "foo;", "isCorrect": false },
+          { "text": "function.foo();", "isCorrect": false }
+        ],
+        "answer": "foo()"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What will be the result of:\nconsole.log(0.1 + 0.2 === 0.3);",
+        "options": [
+          { "text": "true", "isCorrect": false },
+          { "text": "false", "isCorrect": true },
+          { "text": "undefined", "isCorrect": false },
+          { "text": "NaN", "isCorrect": false }
+        ],
+        "answer": "false"
+      },
+      {
+        "question": "What does the 'this' keyword refer to in a regular function?",
+        "options": [
+          { "text": "The function itself", "isCorrect": false },
+          { "text": "Global object", "isCorrect": true },
+          { "text": "The parent object", "isCorrect": false },
+          { "text": "Window always", "isCorrect": false }
+        ],
+        "answer": "Global object"
+      },
+      {
+        "question": "Which method prevents event bubbling?",
+        "options": [
+          { "text": "event.stopPropagation()", "isCorrect": true },
+          { "text": "event.preventDefault()", "isCorrect": false },
+          { "text": "return false", "isCorrect": false },
+          { "text": "event.stopEvent()", "isCorrect": false }
+        ],
+        "answer": "event.stopPropagation()"
+      },
+      {
+        "question": "Which array method returns a new array with elements that pass a test?",
+        "options": [
+          { "text": "filter()", "isCorrect": true },
+          { "text": "map()", "isCorrect": false },
+          { "text": "reduce()", "isCorrect": false },
+          { "text": "foreach()", "isCorrect": false }
+        ],
+        "answer": "filter()"
+      },
+      {
+        "question": "Which statement defines a class in JavaScript?",
+        "options": [
+          { "text": "class MyClass {}", "isCorrect": true },
+          { "text": "new class MyClass {}", "isCorrect": false },
+          { "text": "define class MyClass {}", "isCorrect": false },
+          { "text": "function class()", "isCorrect": false }
+        ],
+        "answer": "class MyClass {}"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is a closure in JavaScript?",
+        "options": [
+          { "text": "A function having access to its own scope, outer function scope, and global scope", "isCorrect": true },
+          { "text": "A function used in a loop", "isCorrect": false },
+          { "text": "A method bound to this", "isCorrect": false },
+          { "text": "A way to declare private variables", "isCorrect": false }
+        ],
+        "answer": "A function having access to its own scope, outer function scope, and global scope"
+      },
+      {
+        "question": "What will be the output:\nlet x = [1,2,3];\nconsole.log(typeof x);",
+        "options": [
+          { "text": "'object'", "isCorrect": true },
+          { "text": "'array'", "isCorrect": false },
+          { "text": "'list'", "isCorrect": false },
+          { "text": "'undefined'", "isCorrect": false }
+        ],
+        "answer": "'object'"
+      },
+      {
+        "question": "What does JSON.stringify() do?",
+        "options": [
+          { "text": "Converts an object to a JSON string", "isCorrect": true },
+          { "text": "Parses JSON data", "isCorrect": false },
+          { "text": "Validates a string", "isCorrect": false },
+          { "text": "Saves JSON to file", "isCorrect": false }
+        ],
+        "answer": "Converts an object to a JSON string"
+      },
+      {
+        "question": "What is the output of:\nconsole.log([] + []);",
+        "options": [
+          { "text": "'' (empty string)", "isCorrect": true },
+          { "text": "[]", "isCorrect": false },
+          { "text": "undefined", "isCorrect": false },
+          { "text": "NaN", "isCorrect": false }
+        ],
+        "answer": "'' (empty string)"
+      },
+      {
+        "question": "How can you make an object immutable?",
+        "options": [
+          { "text": "Object.freeze()", "isCorrect": true },
+          { "text": "Object.lock()", "isCorrect": false },
+          { "text": "const obj", "isCorrect": false },
+          { "text": "sealObject()", "isCorrect": false }
+        ],
+        "answer": "Object.freeze()"
+      }
+    ],
+    "pro": [
+      {
+        "question": "What is the output of:\nconsole.log(typeof NaN);",
+        "options": [
+          { "text": "'number'", "isCorrect": true },
+          { "text": "'NaN'", "isCorrect": false },
+          { "text": "'undefined'", "isCorrect": false },
+          { "text": "'string'", "isCorrect": false }
+        ],
+        "answer": "'number'"
+      },
+      {
+        "question": "Which statement about setTimeout is correct?",
+        "options": [
+          { "text": "It executes after the delay but does not block execution", "isCorrect": true },
+          { "text": "It pauses the code", "isCorrect": false },
+          { "text": "It executes immediately", "isCorrect": false },
+          { "text": "It halts the script", "isCorrect": false }
+        ],
+        "answer": "It executes after the delay but does not block execution"
+      },
+      {
+        "question": "How to detect if a variable is an array?",
+        "options": [
+          { "text": "Array.isArray()", "isCorrect": true },
+          { "text": "typeof var === 'array'", "isCorrect": false },
+          { "text": "var instanceof Object", "isCorrect": false },
+          { "text": "typeof var === 'object'", "isCorrect": false }
+        ],
+        "answer": "Array.isArray()"
+      },
+      {
+        "question": "What is the result of:\nconsole.log([] == ![]);",
+        "options": [
+          { "text": "true", "isCorrect": true },
+          { "text": "false", "isCorrect": false },
+          { "text": "undefined", "isCorrect": false },
+          { "text": "ReferenceError", "isCorrect": false }
+        ],
+        "answer": "true"
+      },
+      {
+        "question": "What is a generator function in JavaScript?",
+        "options": [
+          { "text": "A function that can pause and resume", "isCorrect": true },
+          { "text": "A function that always returns true", "isCorrect": false },
+          { "text": "A function that runs automatically", "isCorrect": false },
+          { "text": "A loop function", "isCorrect": false }
+        ],
+        "answer": "A function that can pause and resume"
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+  "rust": {
+    "beginner": [
+      {
+        "question": "Which keyword is used to declare a variable in Rust?",
+        "options": [
+          { "text": "var", "isCorrect": false },
+          { "text": "let", "isCorrect": true },
+          { "text": "def", "isCorrect": false },
+          { "text": "val", "isCorrect": false }
+        ],
+        "answer": "let"
+      },
+      {
+        "question": "Which macro is used to print to the console in Rust?",
+        "options": [
+          { "text": "println!", "isCorrect": true },
+          { "text": "console.log", "isCorrect": false },
+          { "text": "print()", "isCorrect": false },
+          { "text": "echo", "isCorrect": false }
+        ],
+        "answer": "println!"
+      },
+      {
+        "question": "What is the default ownership model in Rust?",
+        "options": [
+          { "text": "Garbage Collected", "isCorrect": false },
+          { "text": "Manual memory", "isCorrect": false },
+          { "text": "Ownership with borrowing", "isCorrect": true },
+          { "text": "Reference counting only", "isCorrect": false }
+        ],
+        "answer": "Ownership with borrowing"
+      },
+      {
+        "question": "Which of the following is a scalar type in Rust?",
+        "options": [
+          { "text": "String", "isCorrect": false },
+          { "text": "i32", "isCorrect": true },
+          { "text": "Vec", "isCorrect": false },
+          { "text": "HashMap", "isCorrect": false }
+        ],
+        "answer": "i32"
+      },
+      {
+        "question": "Which keyword makes a variable immutable in Rust?",
+        "options": [
+          { "text": "const", "isCorrect": false },
+          { "text": "immutable", "isCorrect": false },
+          { "text": "let", "isCorrect": true },
+          { "text": "var", "isCorrect": false }
+        ],
+        "answer": "let"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What does the `mut` keyword in Rust mean?",
+        "options": [
+          { "text": "It makes a variable constant", "isCorrect": false },
+          { "text": "It makes a variable mutable", "isCorrect": true },
+          { "text": "It deletes a variable", "isCorrect": false },
+          { "text": "It clones a variable", "isCorrect": false }
+        ],
+        "answer": "It makes a variable mutable"
+      },
+      {
+        "question": "Which trait is used for formatting with `{}`?",
+        "options": [
+          { "text": "Debug", "isCorrect": false },
+          { "text": "Display", "isCorrect": true },
+          { "text": "Clone", "isCorrect": false },
+          { "text": "Copy", "isCorrect": false }
+        ],
+        "answer": "Display"
+      },
+      {
+        "question": "Which collection type is used for dynamic arrays in Rust?",
+        "options": [
+          { "text": "Array", "isCorrect": false },
+          { "text": "Vec", "isCorrect": true },
+          { "text": "Tuple", "isCorrect": false },
+          { "text": "List", "isCorrect": false }
+        ],
+        "answer": "Vec"
+      },
+      {
+        "question": "What does `.unwrap()` do in Rust?",
+        "options": [
+          { "text": "It converts strings", "isCorrect": false },
+          { "text": "It panics if the value is None or Err", "isCorrect": true },
+          { "text": "It creates a new thread", "isCorrect": false },
+          { "text": "It removes ownership", "isCorrect": false }
+        ],
+        "answer": "It panics if the value is None or Err"
+      },
+      {
+        "question": "Which keyword is used to define an enum?",
+        "options": [
+          { "text": "union", "isCorrect": false },
+          { "text": "struct", "isCorrect": false },
+          { "text": "enum", "isCorrect": true },
+          { "text": "type", "isCorrect": false }
+        ],
+        "answer": "enum"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What is the output of this code:\nlet x = String::from(\"hello\");\nlet y = x;\nprintln!(\"{}\", x);",
+        "options": [
+          { "text": "hello", "isCorrect": false },
+          { "text": "Move error", "isCorrect": true },
+          { "text": "Runtime error", "isCorrect": false },
+          { "text": "Compilation succeeds", "isCorrect": false }
+        ],
+        "answer": "Move error"
+      },
+      {
+        "question": "What is a 'lifetime' in Rust?",
+        "options": [
+          { "text": "A variable's memory location", "isCorrect": false },
+          { "text": "A scope where a reference is valid", "isCorrect": true },
+          { "text": "A data type", "isCorrect": false },
+          { "text": "An object property", "isCorrect": false }
+        ],
+        "answer": "A scope where a reference is valid"
+      },
+      {
+        "question": "Which trait must be implemented to use `for` loop iteration?",
+        "options": [
+          { "text": "Iterator", "isCorrect": true },
+          { "text": "Display", "isCorrect": false },
+          { "text": "Debug", "isCorrect": false },
+          { "text": "Clone", "isCorrect": false }
+        ],
+        "answer": "Iterator"
+      },
+      {
+        "question": "What is the main benefit of Rust’s ownership model?",
+        "options": [
+          { "text": "Faster runtime", "isCorrect": false },
+          { "text": "No data races", "isCorrect": true },
+          { "text": "No need for variables", "isCorrect": false },
+          { "text": "More dynamic typing", "isCorrect": false }
+        ],
+        "answer": "No data races"
+      },
+      {
+        "question": "What is a `match` expression used for?",
+        "options": [
+          { "text": "To compare strings", "isCorrect": false },
+          { "text": "To implement loops", "isCorrect": false },
+          { "text": "Pattern matching and branching", "isCorrect": true },
+          { "text": "Math operations", "isCorrect": false }
+        ],
+        "answer": "Pattern matching and branching"
+      }
+    ],
+    "pro": [
+      {
+        "question": "What does `?` operator do in Rust?",
+        "options": [
+          { "text": "Performs logical AND", "isCorrect": false },
+          { "text": "Propagates error if any", "isCorrect": true },
+          { "text": "Ternary operation", "isCorrect": false },
+          { "text": "Casts type", "isCorrect": false }
+        ],
+        "answer": "Propagates error if any"
+      },
+      {
+        "question": "How can you prevent data races in multithreaded Rust code?",
+        "options": [
+          { "text": "Using mutexes and ownership", "isCorrect": true },
+          { "text": "Using goto", "isCorrect": false },
+          { "text": "Declaring everything global", "isCorrect": false },
+          { "text": "Avoiding threads", "isCorrect": false }
+        ],
+        "answer": "Using mutexes and ownership"
+      },
+      {
+        "question": "Which keyword ensures exclusive access in concurrency?",
+        "options": [
+          { "text": "Box", "isCorrect": false },
+          { "text": "Mutex", "isCorrect": true },
+          { "text": "RefCell", "isCorrect": false },
+          { "text": "Arc", "isCorrect": false }
+        ],
+        "answer": "Mutex"
+      },
+      {
+        "question": "What is the output of:\nlet x = vec![1, 2, 3];\nlet y = &x[3];",
+        "options": [
+          { "text": "3", "isCorrect": false },
+          { "text": "Panic at runtime (out of bounds)", "isCorrect": true },
+          { "text": "Compile error", "isCorrect": false },
+          { "text": "Undefined", "isCorrect": false }
+        ],
+        "answer": "Panic at runtime (out of bounds)"
+      },
+      {
+        "question": "Which of these is a zero-cost abstraction in Rust?",
+        "options": [
+          { "text": "Iterators", "isCorrect": true },
+          { "text": "GC", "isCorrect": false },
+          { "text": "Threads", "isCorrect": false },
+          { "text": "malloc", "isCorrect": false }
+        ],
+        "answer": "Iterators"
+      }
+    ]
+  },
+
+
+
+  "ruby": {
+    "beginner": [
+      {
+        "question": "Which keyword is used to define a method in Ruby?",
+        "options": [
+          { "text": "func", "isCorrect": false },
+          { "text": "function", "isCorrect": false },
+          { "text": "def", "isCorrect": true },
+          { "text": "method", "isCorrect": false }
+        ],
+        "answer": "def"
+      },
+      {
+        "question": "How do you print something in Ruby?",
+        "options": [
+          { "text": "console.log", "isCorrect": false },
+          { "text": "echo", "isCorrect": false },
+          { "text": "print()", "isCorrect": false },
+          { "text": "puts", "isCorrect": true }
+        ],
+        "answer": "puts"
+      },
+      {
+        "question": "Which symbol is used for interpolation in Ruby strings?",
+        "options": [
+          { "text": "${}", "isCorrect": false },
+          { "text": "#{ }", "isCorrect": true },
+          { "text": "{{ }}", "isCorrect": false },
+          { "text": "<%= %>", "isCorrect": false }
+        ],
+        "answer": "#{ }"
+      },
+      {
+        "question": "Which of these is a valid Ruby variable?",
+        "options": [
+          { "text": "$name", "isCorrect": false },
+          { "text": "1name", "isCorrect": false },
+          { "text": "_name", "isCorrect": true },
+          { "text": "name!", "isCorrect": false }
+        ],
+        "answer": "_name"
+      },
+      {
+        "question": "What is the default value of an uninitialized variable in Ruby?",
+        "options": [
+          { "text": "0", "isCorrect": false },
+          { "text": "undefined", "isCorrect": false },
+          { "text": "null", "isCorrect": false },
+          { "text": "nil", "isCorrect": true }
+        ],
+        "answer": "nil"
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "Which method is used to convert a string to an integer in Ruby?",
+        "options": [
+          { "text": "parseInt()", "isCorrect": false },
+          { "text": "toInteger()", "isCorrect": false },
+          { "text": "to_i", "isCorrect": true },
+          { "text": "int()", "isCorrect": false }
+        ],
+        "answer": "to_i"
+      },
+      {
+        "question": "Which of the following is used to define a class in Ruby?",
+        "options": [
+          { "text": "class", "isCorrect": true },
+          { "text": "Class", "isCorrect": false },
+          { "text": "cls", "isCorrect": false },
+          { "text": "define", "isCorrect": false }
+        ],
+        "answer": "class"
+      },
+      {
+        "question": "How do you denote a block in Ruby?",
+        "options": [
+          { "text": "{}", "isCorrect": true },
+          { "text": "()", "isCorrect": false },
+          { "text": "[]", "isCorrect": false },
+          { "text": "<>", "isCorrect": false }
+        ],
+        "answer": "{}"
+      },
+      {
+        "question": "What is the result of `5.times { print 'Hi' }`?",
+        "options": [
+          { "text": "Hi Hi Hi Hi Hi", "isCorrect": false },
+          { "text": "HiHiHiHiHi", "isCorrect": true },
+          { "text": "5", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "HiHiHiHiHi"
+      },
+      {
+        "question": "Which method is used to get array length in Ruby?",
+        "options": [
+          { "text": "length()", "isCorrect": false },
+          { "text": "count()", "isCorrect": false },
+          { "text": "size", "isCorrect": true },
+          { "text": "getSize()", "isCorrect": false }
+        ],
+        "answer": "size"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "What will be the output of: `a = nil; puts a.nil?`",
+        "options": [
+          { "text": "true", "isCorrect": true },
+          { "text": "false", "isCorrect": false },
+          { "text": "nil", "isCorrect": false },
+          { "text": "undefined", "isCorrect": false }
+        ],
+        "answer": "true"
+      },
+      {
+        "question": "What is the superclass of all classes in Ruby?",
+        "options": [
+          { "text": "Object", "isCorrect": true },
+          { "text": "BaseClass", "isCorrect": false },
+          { "text": "Main", "isCorrect": false },
+          { "text": "Root", "isCorrect": false }
+        ],
+        "answer": "Object"
+      },
+      {
+        "question": "What does `self` represent inside a Ruby class?",
+        "options": [
+          { "text": "Current method", "isCorrect": false },
+          { "text": "Current class", "isCorrect": false },
+          { "text": "Current object", "isCorrect": true },
+          { "text": "Global object", "isCorrect": false }
+        ],
+        "answer": "Current object"
+      },
+      {
+        "question": "Which operator is used to define a range in Ruby?",
+        "options": [
+          { "text": "..", "isCorrect": true },
+          { "text": "->", "isCorrect": false },
+          { "text": "::", "isCorrect": false },
+          { "text": "--", "isCorrect": false }
+        ],
+        "answer": ".."
+      },
+      {
+        "question": "What is `yield` used for in Ruby?",
+        "options": [
+          { "text": "Pause execution", "isCorrect": false },
+          { "text": "Invoke block passed to method", "isCorrect": true },
+          { "text": "Return a value", "isCorrect": false },
+          { "text": "Handle error", "isCorrect": false }
+        ],
+        "answer": "Invoke block passed to method"
+      }
+    ],
+    "pro": [
+      {
+        "question": "What is a Ruby mixin?",
+        "options": [
+          { "text": "A subclass", "isCorrect": false },
+          { "text": "A module included into a class", "isCorrect": true },
+          { "text": "A lambda function", "isCorrect": false },
+          { "text": "An overridden method", "isCorrect": false }
+        ],
+        "answer": "A module included into a class"
+      },
+      {
+        "question": "How does Ruby handle memory management?",
+        "options": [
+          { "text": "Manual malloc/free", "isCorrect": false },
+          { "text": "Garbage Collector", "isCorrect": true },
+          { "text": "Reference Counting", "isCorrect": false },
+          { "text": "None of the above", "isCorrect": false }
+        ],
+        "answer": "Garbage Collector"
+      },
+      {
+        "question": "What is a symbol in Ruby (e.g., `:name`)?",
+        "options": [
+          { "text": "A variable", "isCorrect": false },
+          { "text": "A constant", "isCorrect": false },
+          { "text": "An immutable identifier", "isCorrect": true },
+          { "text": "A keyword", "isCorrect": false }
+        ],
+        "answer": "An immutable identifier"
+      },
+      {
+        "question": "What does `method_missing` do in Ruby?",
+        "options": [
+          { "text": "Handles undefined methods", "isCorrect": true },
+          { "text": "Throws an error", "isCorrect": false },
+          { "text": "Defines a new method", "isCorrect": false },
+          { "text": "Stops execution", "isCorrect": false }
+        ],
+        "answer": "Handles undefined methods"
+      },
+      {
+        "question": "What is the output of:\nclass A\n  def hello; 'hi'; end\nend\np A.new.hello",
+        "options": [
+          { "text": "'hi'", "isCorrect": true },
+          { "text": "hi", "isCorrect": false },
+          { "text": "nil", "isCorrect": false },
+          { "text": "undefined", "isCorrect": false }
+        ],
+        "answer": "'hi'"
+      }
+    ]
+  },
+
+
+
+
+  "c_sharp": {
+    "beginner": [
+      {
+        "question": "Which keyword is used to define a class in C#?",
+        "options": [
+          { "text": "class", "isCorrect": true },
+          { "text": "Class", "isCorrect": false },
+          { "text": "cls", "isCorrect": false },
+          { "text": "define", "isCorrect": false }
+        ],
+        "answer": "class"
+      },
+      {
+        "question": "Which method is the entry point of a C# program?",
+        "options": [
+          { "text": "Start()", "isCorrect": false },
+          { "text": "Begin()", "isCorrect": false },
+          { "text": "Main()", "isCorrect": true },
+          { "text": "Init()", "isCorrect": false }
+        ],
+        "answer": "Main()"
+      },
+      {
+        "question": "Which data type is used to store true/false values in C#?",
+        "options": [
+          { "text": "bit", "isCorrect": false },
+          { "text": "boolean", "isCorrect": false },
+          { "text": "bool", "isCorrect": true },
+          { "text": "truth", "isCorrect": false }
+        ],
+        "answer": "bool"
+      },
+      {
+        "question": "What is the correct way to comment a single line in C#?",
+        "options": [
+          { "text": "# comment", "isCorrect": false },
+          { "text": "// comment", "isCorrect": true },
+          { "text": "-- comment", "isCorrect": false },
+          { "text": "/* comment */", "isCorrect": false }
+        ],
+        "answer": "// comment"
+      },
+      {
+        "question": "Which symbol is used to access members of a class in C#?",
+        "options": [
+          { "text": ".", "isCorrect": true },
+          { "text": "->", "isCorrect": false },
+          { "text": "::", "isCorrect": false },
+          { "text": ":", "isCorrect": false }
+        ],
+        "answer": "."
+      }
+    ],
+    "intermediate": [
+      {
+        "question": "What does `static` mean in C#?",
+        "options": [
+          { "text": "The method cannot be accessed", "isCorrect": false },
+          { "text": "The method belongs to the class, not instance", "isCorrect": true },
+          { "text": "It cannot return a value", "isCorrect": false },
+          { "text": "It is a constant method", "isCorrect": false }
+        ],
+        "answer": "The method belongs to the class, not instance"
+      },
+      {
+        "question": "Which of the following defines a constant in C#?",
+        "options": [
+          { "text": "readonly", "isCorrect": false },
+          { "text": "const", "isCorrect": true },
+          { "text": "final", "isCorrect": false },
+          { "text": "static const", "isCorrect": false }
+        ],
+        "answer": "const"
+      },
+      {
+        "question": "Which collection does not allow duplicate values in C#?",
+        "options": [
+          { "text": "List", "isCorrect": false },
+          { "text": "Array", "isCorrect": false },
+          { "text": "HashSet", "isCorrect": true },
+          { "text": "Queue", "isCorrect": false }
+        ],
+        "answer": "HashSet"
+      },
+      {
+        "question": "What is the output of: `Console.WriteLine(3 / 2);`?",
+        "options": [
+          { "text": "1", "isCorrect": true },
+          { "text": "1.5", "isCorrect": false },
+          { "text": "2", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "What is boxing in C#?",
+        "options": [
+          { "text": "Converting object to value type", "isCorrect": false },
+          { "text": "Converting value type to object", "isCorrect": true },
+          { "text": "Creating a new class", "isCorrect": false },
+          { "text": "Adding variables to a class", "isCorrect": false }
+        ],
+        "answer": "Converting value type to object"
+      }
+    ],
+    "advanced": [
+      {
+        "question": "Which of the following is used to handle exceptions in C#?",
+        "options": [
+          { "text": "try-catch", "isCorrect": true },
+          { "text": "try-except", "isCorrect": false },
+          { "text": "if-else", "isCorrect": false },
+          { "text": "catch-finally", "isCorrect": false }
+        ],
+        "answer": "try-catch"
+      },
+      {
+        "question": "Which keyword is used to define an abstract method?",
+        "options": [
+          { "text": "virtual", "isCorrect": false },
+          { "text": "override", "isCorrect": false },
+          { "text": "abstract", "isCorrect": true },
+          { "text": "sealed", "isCorrect": false }
+        ],
+        "answer": "abstract"
+      },
+      {
+        "question": "Which of these types support multiple inheritance in C#?",
+        "options": [
+          { "text": "Classes", "isCorrect": false },
+          { "text": "Interfaces", "isCorrect": true },
+          { "text": "Structs", "isCorrect": false },
+          { "text": "Enums", "isCorrect": false }
+        ],
+        "answer": "Interfaces"
+      },
+      {
+        "question": "What will be the output: `int a = 5; Console.WriteLine(a++ + ++a);`?",
+        "options": [
+          { "text": "11", "isCorrect": true },
+          { "text": "10", "isCorrect": false },
+          { "text": "12", "isCorrect": false },
+          { "text": "Error", "isCorrect": false }
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "Which access modifier allows access only within the same assembly?",
+        "options": [
+          { "text": "private", "isCorrect": false },
+          { "text": "protected", "isCorrect": false },
+          { "text": "internal", "isCorrect": true },
+          { "text": "public", "isCorrect": false }
+        ],
+        "answer": "internal"
+      }
+    ],
+    "pro": [
+      {
+        "question": "What is the use of the `yield` keyword in C#?",
+        "options": [
+          { "text": "Return a collection lazily", "isCorrect": true },
+          { "text": "Break from loop", "isCorrect": false },
+          { "text": "Pause execution", "isCorrect": false },
+          { "text": "Start a thread", "isCorrect": false }
+        ],
+        "answer": "Return a collection lazily"
+      },
+      {
+        "question": "Which delegate type is used for events in C#?",
+        "options": [
+          { "text": "Action", "isCorrect": false },
+          { "text": "Func", "isCorrect": false },
+          { "text": "EventHandler", "isCorrect": true },
+          { "text": "Predicate", "isCorrect": false }
+        ],
+        "answer": "EventHandler"
+      },
+      {
+        "question": "What is reflection in C#?",
+        "options": [
+          { "text": "Compiling code", "isCorrect": false },
+          { "text": "Runtime object inspection", "isCorrect": true },
+          { "text": "Looping through arrays", "isCorrect": false },
+          { "text": "Displaying output", "isCorrect": false }
+        ],
+        "answer": "Runtime object inspection"
+      },
+      {
+        "question": "Which of these can implement IDisposable interface?",
+        "options": [
+          { "text": "Class that uses unmanaged resources", "isCorrect": true },
+          { "text": "Only sealed classes", "isCorrect": false },
+          { "text": "Only interfaces", "isCorrect": false },
+          { "text": "All static methods", "isCorrect": false }
+        ],
+        "answer": "Class that uses unmanaged resources"
+      },
+      {
+        "question": "What does the `lock` keyword do?",
+        "options": [
+          { "text": "Prevents memory leak", "isCorrect": false },
+          { "text": "Ensures thread safety", "isCorrect": true },
+          { "text": "Compiles code faster", "isCorrect": false },
+          { "text": "Blocks file access", "isCorrect": false }
+        ],
+        "answer": "Ensures thread safety"
+      }
+    ]
+  }
+
+}

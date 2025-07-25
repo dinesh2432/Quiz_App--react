@@ -1,0 +1,1275 @@
+{
+    "game_of_thrones": {
+        "beginner": [
+            {
+            "question": "Who is known as the 'Mother of Dragons'?",
+            "options": [
+                { "text": "Cersei Lannister", "isCorrect": false },
+                { "text": "Arya Stark", "isCorrect": false },
+                { "text": "Daenerys Targaryen", "isCorrect": true },
+                { "text": "Sansa Stark", "isCorrect": false }
+            ],
+            "answer": "Daenerys Targaryen"
+            },
+            {
+            "question": "What is the name of Jon Snow's direwolf?",
+            "options": [
+                { "text": "Ghost", "isCorrect": true },
+                { "text": "Shadow", "isCorrect": false },
+                { "text": "Fang", "isCorrect": false },
+                { "text": "Snowy", "isCorrect": false }
+            ],
+            "answer": "Ghost"
+            },
+            {
+            "question": "Which family has a sigil of a lion?",
+            "options": [
+                { "text": "Stark", "isCorrect": false },
+                { "text": "Baratheon", "isCorrect": false },
+                { "text": "Lannister", "isCorrect": true },
+                { "text": "Tully", "isCorrect": false }
+            ],
+            "answer": "Lannister"
+            },
+            {
+            "question": "Who is the King in the North in Season 7?",
+            "options": [
+                { "text": "Robb Stark", "isCorrect": false },
+                { "text": "Ned Stark", "isCorrect": false },
+                { "text": "Jon Snow", "isCorrect": true },
+                { "text": "Bran Stark", "isCorrect": false }
+            ],
+            "answer": "Jon Snow"
+            },
+            {
+            "question": "Which continent is most of Game of Thrones set in?",
+            "options": [
+                { "text": "Essos", "isCorrect": false },
+                { "text": "Westeros", "isCorrect": true },
+                { "text": "Narnia", "isCorrect": false },
+                { "text": "Middle-earth", "isCorrect": false }
+            ],
+            "answer": "Westeros"
+            }
+        ],
+
+        "intermediate": [
+            {
+            "question": "Who kills the Night King?",
+            "options": [
+                { "text": "Jon Snow", "isCorrect": false },
+                { "text": "Bran Stark", "isCorrect": false },
+                { "text": "Arya Stark", "isCorrect": true },
+                { "text": "Daenerys Targaryen", "isCorrect": false }
+            ],
+            "answer": "Arya Stark"
+            },
+            {
+            "question": "Which house's motto is 'Fire and Blood'?",
+            "options": [
+                { "text": "House Lannister", "isCorrect": false },
+                { "text": "House Stark", "isCorrect": false },
+                { "text": "House Targaryen", "isCorrect": true },
+                { "text": "House Martell", "isCorrect": false }
+            ],
+            "answer": "House Targaryen"
+            },
+            {
+            "question": "What poison killed Joffrey Baratheon?",
+            "options": [
+                { "text": "Nightshade", "isCorrect": false },
+                { "text": "Strangler", "isCorrect": true },
+                { "text": "Milk of the Poppy", "isCorrect": false },
+                { "text": "Basilisk Venom", "isCorrect": false }
+            ],
+            "answer": "Strangler"
+            },
+            {
+            "question": "Who pushes Bran Stark out of the window?",
+            "options": [
+                { "text": "Jaime Lannister", "isCorrect": true },
+                { "text": "Cersei Lannister", "isCorrect": false },
+                { "text": "Petyr Baelish", "isCorrect": false },
+                { "text": "Theon Greyjoy", "isCorrect": false }
+            ],
+            "answer": "Jaime Lannister"
+            },
+            {
+            "question": "Which group is known for saying 'What is dead may never die'?",
+            "options": [
+                { "text": "Faceless Men", "isCorrect": false },
+                { "text": "Brotherhood Without Banners", "isCorrect": false },
+                { "text": "Ironborn", "isCorrect": true },
+                { "text": "Dothraki", "isCorrect": false }
+            ],
+            "answer": "Ironborn"
+            }
+        ],
+
+        "advanced": [
+            {
+            "question": "What is the real name of Jon Snow?",
+            "options": [
+                { "text": "Aegon Targaryen", "isCorrect": true },
+                { "text": "Rhaegar Targaryen", "isCorrect": false },
+                { "text": "Aemon Targaryen", "isCorrect": false },
+                { "text": "Daeron Targaryen", "isCorrect": false }
+            ],
+            "answer": "Aegon Targaryen"
+            },
+            {
+            "question": "What is the name of Arya’s sword?",
+            "options": [
+                { "text": "Fang", "isCorrect": false },
+                { "text": "Needle", "isCorrect": true },
+                { "text": "Oathkeeper", "isCorrect": false },
+                { "text": "Ice", "isCorrect": false }
+            ],
+            "answer": "Needle"
+            },
+            {
+            "question": "Who kills Stannis Baratheon?",
+            "options": [
+                { "text": "Brienne of Tarth", "isCorrect": true },
+                { "text": "Ramsay Bolton", "isCorrect": false },
+                { "text": "Renly Baratheon", "isCorrect": false },
+                { "text": "Jon Snow", "isCorrect": false }
+            ],
+            "answer": "Brienne of Tarth"
+            },
+            {
+            "question": "What is the name of the giant killed at the Battle of the Bastards?",
+            "options": [
+                { "text": "Mag the Mighty", "isCorrect": false },
+                { "text": "Wun Wun", "isCorrect": true },
+                { "text": "Dongo", "isCorrect": false },
+                { "text": "Tormund", "isCorrect": false }
+            ],
+            "answer": "Wun Wun"
+            },
+            {
+            "question": "Who was the last Lord Commander of the Night’s Watch before Jon Snow?",
+            "options": [
+                { "text": "Jeor Mormont", "isCorrect": true },
+                { "text": "Alliser Thorne", "isCorrect": false },
+                { "text": "Eddison Tollett", "isCorrect": false },
+                { "text": "Qhorin Halfhand", "isCorrect": false }
+            ],
+            "answer": "Jeor Mormont"
+            }
+        ],
+
+        "pro": [
+            {
+            "question": "What is the name of the maester at Castle Black?",
+            "options": [
+                { "text": "Maester Pycelle", "isCorrect": false },
+                { "text": "Maester Luwin", "isCorrect": false },
+                { "text": "Maester Aemon", "isCorrect": true },
+                { "text": "Maester Cressen", "isCorrect": false }
+            ],
+            "answer": "Maester Aemon"
+            },
+            {
+            "question": "Who resurrects Jon Snow?",
+            "options": [
+                { "text": "Melisandre", "isCorrect": true },
+                { "text": "Thoros of Myr", "isCorrect": false },
+                { "text": "Beric Dondarrion", "isCorrect": false },
+                { "text": "Bran Stark", "isCorrect": false }
+            ],
+            "answer": "Melisandre"
+            },
+            {
+            "question": "What is the Night King's weakness?",
+            "options": [
+                { "text": "Dragon fire", "isCorrect": false },
+                { "text": "Stabbing by Valyrian steel", "isCorrect": true },
+                { "text": "Ice swords", "isCorrect": false },
+                { "text": "Poison", "isCorrect": false }
+            ],
+            "answer": "Stabbing by Valyrian steel"
+            },
+            {
+            "question": "What is the ancestral home of House Targaryen?",
+            "options": [
+                { "text": "King’s Landing", "isCorrect": false },
+                { "text": "Valyria", "isCorrect": true },
+                { "text": "Dragonstone", "isCorrect": false },
+                { "text": "Oldtown", "isCorrect": false }
+            ],
+            "answer": "Valyria"
+            },
+            {
+            "question": "What is the full name of 'The Mountain'?",
+            "options": [
+                { "text": "Gregor Clegane", "isCorrect": true },
+                { "text": "Sandor Clegane", "isCorrect": false },
+                { "text": "Loras Tyrell", "isCorrect": false },
+                { "text": "Ser Ilyn Payne", "isCorrect": false }
+            ],
+            "answer": "Gregor Clegane"
+            }
+        ]
+    },
+
+    "stranger_things": {
+        "beginner": [
+            {
+            "question": "What is the name of the girl with telekinetic powers?",
+            "options": [
+                { "text": "Max", "isCorrect": false },
+                { "text": "Eleven", "isCorrect": true },
+                { "text": "Nancy", "isCorrect": false },
+                { "text": "Robin", "isCorrect": false }
+            ],
+            "answer": "Eleven"
+            },
+            {
+            "question": "What is the name of the town where Stranger Things takes place?",
+            "options": [
+                { "text": "Hawkins", "isCorrect": true },
+                { "text": "Hilltown", "isCorrect": false },
+                { "text": "Derry", "isCorrect": false },
+                { "text": "Briarcliff", "isCorrect": false }
+            ],
+            "answer": "Hawkins"
+            },
+            {
+            "question": "What board game do the kids love to play?",
+            "options": [
+                { "text": "Monopoly", "isCorrect": false },
+                { "text": "Dungeons & Dragons", "isCorrect": true },
+                { "text": "Risk", "isCorrect": false },
+                { "text": "Life", "isCorrect": false }
+            ],
+            "answer": "Dungeons & Dragons"
+            },
+            {
+            "question": "What is the name of Eleven’s best friend and love interest?",
+            "options": [
+                { "text": "Lucas", "isCorrect": false },
+                { "text": "Will", "isCorrect": false },
+                { "text": "Mike", "isCorrect": true },
+                { "text": "Steve", "isCorrect": false }
+            ],
+            "answer": "Mike"
+            },
+            {
+            "question": "What snack does Eleven love?",
+            "options": [
+                { "text": "Doritos", "isCorrect": false },
+                { "text": "Eggos", "isCorrect": true },
+                { "text": "Twinkies", "isCorrect": false },
+                { "text": "Pop Tarts", "isCorrect": false }
+            ],
+            "answer": "Eggos"
+            }
+        ],
+
+        "intermediate": [
+            {
+            "question": "Who was trapped in the Upside Down in Season 1?",
+            "options": [
+                { "text": "Lucas", "isCorrect": false },
+                { "text": "Will", "isCorrect": true },
+                { "text": "Mike", "isCorrect": false },
+                { "text": "Jonathan", "isCorrect": false }
+            ],
+            "answer": "Will"
+            },
+            {
+            "question": "What is Hopper’s first name?",
+            "options": [
+                { "text": "John", "isCorrect": false },
+                { "text": "Jim", "isCorrect": true },
+                { "text": "Jack", "isCorrect": false },
+                { "text": "Joe", "isCorrect": false }
+            ],
+            "answer": "Jim"
+            },
+            {
+            "question": "Which character works at Scoops Ahoy in Season 3?",
+            "options": [
+                { "text": "Dustin", "isCorrect": false },
+                { "text": "Jonathan", "isCorrect": false },
+                { "text": "Steve", "isCorrect": true },
+                { "text": "Will", "isCorrect": false }
+            ],
+            "answer": "Steve"
+            },
+            {
+            "question": "Who is Max’s stepbrother?",
+            "options": [
+                { "text": "Billy", "isCorrect": true },
+                { "text": "Steve", "isCorrect": false },
+                { "text": "Eddie", "isCorrect": false },
+                { "text": "Lucas", "isCorrect": false }
+            ],
+            "answer": "Billy"
+            },
+            {
+            "question": "Who discovers the Russian lab beneath the mall?",
+            "options": [
+                { "text": "Nancy and Jonathan", "isCorrect": false },
+                { "text": "Joyce and Hopper", "isCorrect": false },
+                { "text": "Steve and Dustin", "isCorrect": true },
+                { "text": "Mike and Lucas", "isCorrect": false }
+            ],
+            "answer": "Steve and Dustin"
+            }
+        ],
+
+        "advanced": [
+            {
+            "question": "What is the full name of Eleven’s mother?",
+            "options": [
+                { "text": "Terry Ives", "isCorrect": true },
+                { "text": "Karen Wheeler", "isCorrect": false },
+                { "text": "Joyce Byers", "isCorrect": false },
+                { "text": "Susan Hargrove", "isCorrect": false }
+            ],
+            "answer": "Terry Ives"
+            },
+            {
+            "question": "What is the name of the lab where Eleven was experimented on?",
+            "options": [
+                { "text": "Brenner Institute", "isCorrect": false },
+                { "text": "Hawkins National Laboratory", "isCorrect": true },
+                { "text": "Midvale Research Center", "isCorrect": false },
+                { "text": "Project MKUltra", "isCorrect": false }
+            ],
+            "answer": "Hawkins National Laboratory"
+            },
+            {
+            "question": "What song helps Max escape Vecna’s curse?",
+            "options": [
+                { "text": "Take On Me", "isCorrect": false },
+                { "text": "Running Up That Hill", "isCorrect": true },
+                { "text": "Africa", "isCorrect": false },
+                { "text": "Time After Time", "isCorrect": false }
+            ],
+            "answer": "Running Up That Hill"
+            },
+            {
+            "question": "Which character becomes a vessel for the Mind Flayer?",
+            "options": [
+                { "text": "Dustin", "isCorrect": false },
+                { "text": "Billy", "isCorrect": true },
+                { "text": "Mike", "isCorrect": false },
+                { "text": "Eddie", "isCorrect": false }
+            ],
+            "answer": "Billy"
+            },
+            {
+            "question": "What is the name of the group of kids including Dustin, Mike, Lucas, and Will?",
+            "options": [
+                { "text": "The Party", "isCorrect": true },
+                { "text": "The Heroes", "isCorrect": false },
+                { "text": "The Nerds", "isCorrect": false },
+                { "text": "The Seekers", "isCorrect": false }
+            ],
+            "answer": "The Party"
+            }
+        ],
+
+        "pro": [
+            {
+            "question": "What is the real name of the character 'Vecna'?",
+            "options": [
+                { "text": "Henry Creel", "isCorrect": true },
+                { "text": "Victor Creel", "isCorrect": false },
+                { "text": "Martin Brenner", "isCorrect": false },
+                { "text": "Peter Ballard", "isCorrect": false }
+            ],
+            "answer": "Henry Creel"
+            },
+            {
+            "question": "What Dungeons & Dragons creature does the Mind Flayer represent?",
+            "options": [
+                { "text": "Demogorgon", "isCorrect": false },
+                { "text": "Illithid", "isCorrect": true },
+                { "text": "Beholder", "isCorrect": false },
+                { "text": "Mind Hunter", "isCorrect": false }
+            ],
+            "answer": "Illithid"
+            },
+            {
+            "question": "What is the name of the Russian guard who helps Hopper escape?",
+            "options": [
+                { "text": "Alexei", "isCorrect": false },
+                { "text": "Yuri", "isCorrect": false },
+                { "text": "Enzo", "isCorrect": true },
+                { "text": "Sergei", "isCorrect": false }
+            ],
+            "answer": "Enzo"
+            },
+            {
+            "question": "What is the name of Dustin’s long-distance girlfriend?",
+            "options": [
+                { "text": "Suzie", "isCorrect": true },
+                { "text": "Nancy", "isCorrect": false },
+                { "text": "Robin", "isCorrect": false },
+                { "text": "Chrissy", "isCorrect": false }
+            ],
+            "answer": "Suzie"
+            },
+            {
+            "question": "What fictional planet do the boys mention in their D&D campaign?",
+            "options": [
+                { "text": "Endor", "isCorrect": false },
+                { "text": "The Upside Down", "isCorrect": false },
+                { "text": "The Vale of Shadows", "isCorrect": true },
+                { "text": "Dark Dimension", "isCorrect": false }
+            ],
+            "answer": "The Vale of Shadows"
+            }
+        ]
+    },
+
+    "squid_game": {
+        "beginner": [
+            {
+            "question": "What is the main color of the jumpsuits worn by the game workers?",
+            "options": [
+                { "text": "Red", "isCorrect": true },
+                { "text": "Green", "isCorrect": false },
+                { "text": "Blue", "isCorrect": false },
+                { "text": "Black", "isCorrect": false }
+            ],
+            "answer": "Red"
+            },
+            {
+            "question": "What shape is NOT seen on the workers’ masks?",
+            "options": [
+                { "text": "Square", "isCorrect": false },
+                { "text": "Triangle", "isCorrect": false },
+                { "text": "Star", "isCorrect": true },
+                { "text": "Circle", "isCorrect": false }
+            ],
+            "answer": "Star"
+            },
+            {
+            "question": "Which traditional children's game is played first?",
+            "options": [
+                { "text": "Marbles", "isCorrect": false },
+                { "text": "Red Light, Green Light", "isCorrect": true },
+                { "text": "Tug of War", "isCorrect": false },
+                { "text": "Glass Bridge", "isCorrect": false }
+            ],
+            "answer": "Red Light, Green Light"
+            },
+            {
+            "question": "What is the color of the contestants’ tracksuits?",
+            "options": [
+                { "text": "Red", "isCorrect": false },
+                { "text": "Green", "isCorrect": true },
+                { "text": "Yellow", "isCorrect": false },
+                { "text": "Blue", "isCorrect": false }
+            ],
+            "answer": "Green"
+            },
+            {
+            "question": "What currency is the prize money in?",
+            "options": [
+                { "text": "USD", "isCorrect": false },
+                { "text": "Yen", "isCorrect": false },
+                { "text": "Won", "isCorrect": true },
+                { "text": "Peso", "isCorrect": false }
+            ],
+            "answer": "Won"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "What is the number of the main protagonist, Seong Gi-hun?",
+            "options": [
+                { "text": "456", "isCorrect": true },
+                { "text": "218", "isCorrect": false },
+                { "text": "001", "isCorrect": false },
+                { "text": "199", "isCorrect": false }
+            ],
+            "answer": "456"
+            },
+            {
+            "question": "Which character is revealed to be the old man in disguise?",
+            "options": [
+                { "text": "001", "isCorrect": true },
+                { "text": "067", "isCorrect": false },
+                { "text": "456", "isCorrect": false },
+                { "text": "212", "isCorrect": false }
+            ],
+            "answer": "001"
+            },
+            {
+            "question": "What is the symbol of the final game?",
+            "options": [
+                { "text": "Triangle", "isCorrect": false },
+                { "text": "Circle", "isCorrect": false },
+                { "text": "Squid", "isCorrect": true },
+                { "text": "Star", "isCorrect": false }
+            ],
+            "answer": "Squid"
+            },
+            {
+            "question": "Which game involves selecting a shape and carving it out of honeycomb?",
+            "options": [
+                { "text": "Marbles", "isCorrect": false },
+                { "text": "Dalgona", "isCorrect": true },
+                { "text": "Tug of War", "isCorrect": false },
+                { "text": "Red Light Green Light", "isCorrect": false }
+            ],
+            "answer": "Dalgona"
+            },
+            {
+            "question": "Which character is from North Korea?",
+            "options": [
+                { "text": "067", "isCorrect": true },
+                { "text": "101", "isCorrect": false },
+                { "text": "456", "isCorrect": false },
+                { "text": "218", "isCorrect": false }
+            ],
+            "answer": "067"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "What was the total prize money for the winner?",
+            "options": [
+                { "text": "45.6 million won", "isCorrect": false },
+                { "text": "456 million won", "isCorrect": false },
+                { "text": "45.6 billion won", "isCorrect": true },
+                { "text": "100 billion won", "isCorrect": false }
+            ],
+            "answer": "45.6 billion won"
+            },
+            {
+            "question": "What number is Cho Sang-woo?",
+            "options": [
+                { "text": "218", "isCorrect": true },
+                { "text": "101", "isCorrect": false },
+                { "text": "001", "isCorrect": false },
+                { "text": "067", "isCorrect": false }
+            ],
+            "answer": "218"
+            },
+            {
+            "question": "Who organises the VIP betting on the games?",
+            "options": [
+                { "text": "The Host", "isCorrect": true },
+                { "text": "The Front Man", "isCorrect": false },
+                { "text": "The Manager", "isCorrect": false },
+                { "text": "The Master", "isCorrect": false }
+            ],
+            "answer": "The Host"
+            },
+            {
+            "question": "What profession did Seong Gi-hun have before joining the game?",
+            "options": [
+                { "text": "Banker", "isCorrect": false },
+                { "text": "Chauffeur", "isCorrect": true },
+                { "text": "Factory Worker", "isCorrect": false },
+                { "text": "Chef", "isCorrect": false }
+            ],
+            "answer": "Chauffeur"
+            },
+            {
+            "question": "What does the Front Man use to monitor the game?",
+            "options": [
+                { "text": "AI Drone", "isCorrect": false },
+                { "text": "CCTV", "isCorrect": true },
+                { "text": "Hidden Mirrors", "isCorrect": false },
+                { "text": "Holograms", "isCorrect": false }
+            ],
+            "answer": "CCTV"
+            }
+        ],
+        "pro": [
+            {
+            "question": "Who is revealed to be the Front Man?",
+            "options": [
+                { "text": "Gi-hun’s Father", "isCorrect": false },
+                { "text": "Hwang Jun-ho’s Brother", "isCorrect": true },
+                { "text": "VIP Leader", "isCorrect": false },
+                { "text": "The Banker", "isCorrect": false }
+            ],
+            "answer": "Hwang Jun-ho’s Brother"
+            },
+            {
+            "question": "What does player 001 suffer from?",
+            "options": [
+                { "text": "Diabetes", "isCorrect": false },
+                { "text": "Parkinson's", "isCorrect": false },
+                { "text": "Brain Tumor", "isCorrect": true },
+                { "text": "Blindness", "isCorrect": false }
+            ],
+            "answer": "Brain Tumor"
+            },
+            {
+            "question": "What song plays during the red light green light game?",
+            "options": [
+                { "text": "Fly Me to the Moon", "isCorrect": false },
+                { "text": "Blue Danube", "isCorrect": false },
+                { "text": "Mugunghwa Flower Has Bloomed", "isCorrect": true },
+                { "text": "Canon in D", "isCorrect": false }
+            ],
+            "answer": "Mugunghwa Flower Has Bloomed"
+            },
+            {
+            "question": "How many contestants start in the first game?",
+            "options": [
+                { "text": "456", "isCorrect": true },
+                { "text": "500", "isCorrect": false },
+                { "text": "400", "isCorrect": false },
+                { "text": "300", "isCorrect": false }
+            ],
+            "answer": "456"
+            },
+            {
+            "question": "What item does the recruiter use to test Gi-hun’s reflexes in the subway?",
+            "options": [
+                { "text": "Rock-Paper-Scissors", "isCorrect": false },
+                { "text": "Paper Flip Game (Ddakji)", "isCorrect": true },
+                { "text": "Arm Wrestling", "isCorrect": false },
+                { "text": "Tug of War", "isCorrect": false }
+            ],
+            "answer": "Paper Flip Game (Ddakji)"
+            }
+        ]
+    },
+
+    "wednesday": {
+        "beginner": [
+            {
+            "question": "What is the name of Wednesday's school?",
+            "options": [
+                { "text": "Ravenwood High", "isCorrect": false },
+                { "text": "Nevermore Academy", "isCorrect": true },
+                { "text": "Shadow Hill", "isCorrect": false },
+                { "text": "Blackthorn School", "isCorrect": false }
+            ],
+            "answer": "Nevermore Academy"
+            },
+            {
+            "question": "Who is Wednesday Addams' roommate?",
+            "options": [
+                { "text": "Bianca", "isCorrect": false },
+                { "text": "Yoko", "isCorrect": false },
+                { "text": "Enid Sinclair", "isCorrect": true },
+                { "text": "Larissa Weems", "isCorrect": false }
+            ],
+            "answer": "Enid Sinclair"
+            },
+            {
+            "question": "What type of supernatural creature is Enid?",
+            "options": [
+                { "text": "Vampire", "isCorrect": false },
+                { "text": "Werewolf", "isCorrect": true },
+                { "text": "Siren", "isCorrect": false },
+                { "text": "Medusa", "isCorrect": false }
+            ],
+            "answer": "Werewolf"
+            },
+            {
+            "question": "What does Wednesday play at the school dance?",
+            "options": [
+                { "text": "Guitar", "isCorrect": false },
+                { "text": "Piano", "isCorrect": false },
+                { "text": "Violin", "isCorrect": true },
+                { "text": "Flute", "isCorrect": false }
+            ],
+            "answer": "Violin"
+            },
+            {
+            "question": "What is the name of the disembodied hand that follows Wednesday?",
+            "options": [
+                { "text": "It", "isCorrect": false },
+                { "text": "Thing", "isCorrect": true },
+                { "text": "Handy", "isCorrect": false },
+                { "text": "Cousin", "isCorrect": false }
+            ],
+            "answer": "Thing"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Who is the principal of Nevermore Academy?",
+            "options": [
+                { "text": "Morticia Addams", "isCorrect": false },
+                { "text": "Larissa Weems", "isCorrect": true },
+                { "text": "Thornhill", "isCorrect": false },
+                { "text": "Dr. Kinbott", "isCorrect": false }
+            ],
+            "answer": "Larissa Weems"
+            },
+            {
+            "question": "What kind of creature is Bianca Barclay?",
+            "options": [
+                { "text": "Siren", "isCorrect": true },
+                { "text": "Gorgon", "isCorrect": false },
+                { "text": "Witch", "isCorrect": false },
+                { "text": "Vampire", "isCorrect": false }
+            ],
+            "answer": "Siren"
+            },
+            {
+            "question": "What unique ability does Wednesday have?",
+            "options": [
+                { "text": "Shapeshifting", "isCorrect": false },
+                { "text": "Mind reading", "isCorrect": false },
+                { "text": "Visions", "isCorrect": true },
+                { "text": "Levitation", "isCorrect": false }
+            ],
+            "answer": "Visions"
+            },
+            {
+            "question": "What event is disrupted by a blood-like liquid at Nevermore?",
+            "options": [
+                { "text": "Founders Day", "isCorrect": false },
+                { "text": "School Assembly", "isCorrect": false },
+                { "text": "Outreach Day", "isCorrect": false },
+                { "text": "The Rave’N Dance", "isCorrect": true }
+            ],
+            "answer": "The Rave’N Dance"
+            },
+            {
+            "question": "Who is Wednesday’s love interest that hides a dark secret?",
+            "options": [
+                { "text": "Xavier", "isCorrect": false },
+                { "text": "Tyler Galpin", "isCorrect": true },
+                { "text": "Rowan", "isCorrect": false },
+                { "text": "Lucas", "isCorrect": false }
+            ],
+            "answer": "Tyler Galpin"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Who is revealed to be the Hyde monster?",
+            "options": [
+                { "text": "Xavier Thorpe", "isCorrect": false },
+                { "text": "Tyler Galpin", "isCorrect": true },
+                { "text": "Rowan Laslow", "isCorrect": false },
+                { "text": "Lucas Walker", "isCorrect": false }
+            ],
+            "answer": "Tyler Galpin"
+            },
+            {
+            "question": "What is the name of the botany teacher at Nevermore who plays a key villain role?",
+            "options": [
+                { "text": "Thornhill", "isCorrect": true },
+                { "text": "Weems", "isCorrect": false },
+                { "text": "Kinbott", "isCorrect": false },
+                { "text": "Norma", "isCorrect": false }
+            ],
+            "answer": "Thornhill"
+            },
+            {
+            "question": "What was the name of the pilgrim who sought to destroy outcasts?",
+            "options": [
+                { "text": "Joseph Blackwell", "isCorrect": false },
+                { "text": "Joseph Crackstone", "isCorrect": true },
+                { "text": "Nathaniel Evermore", "isCorrect": false },
+                { "text": "Jonathan Wick", "isCorrect": false }
+            ],
+            "answer": "Joseph Crackstone"
+            },
+            {
+            "question": "Which relative of Wednesday appears in the series to help her investigate?",
+            "options": [
+                { "text": "Uncle Fester", "isCorrect": true },
+                { "text": "Cousin Itt", "isCorrect": false },
+                { "text": "Grandmama", "isCorrect": false },
+                { "text": "Pugsley", "isCorrect": false }
+            ],
+            "answer": "Uncle Fester"
+            },
+            {
+            "question": "What is Xavier Thorpe's unique supernatural ability?",
+            "options": [
+                { "text": "Mind control", "isCorrect": false },
+                { "text": "Telepathy", "isCorrect": false },
+                { "text": "Bringing drawings to life", "isCorrect": true },
+                { "text": "Time travel", "isCorrect": false }
+            ],
+            "answer": "Bringing drawings to life"
+            }
+        ],
+        "pro": [
+            {
+            "question": "Which mythical species was Joseph Crackstone trying to eliminate?",
+            "options": [
+                { "text": "Outcasts", "isCorrect": true },
+                { "text": "Werewolves", "isCorrect": false },
+                { "text": "Vampires", "isCorrect": false },
+                { "text": "Ghosts", "isCorrect": false }
+            ],
+            "answer": "Outcasts"
+            },
+            {
+            "question": "How does Principal Weems die?",
+            "options": [
+                { "text": "Killed by Hyde", "isCorrect": false },
+                { "text": "Poisoned by Thornhill", "isCorrect": true },
+                { "text": "In a fire", "isCorrect": false },
+                { "text": "Stabbed by Xavier", "isCorrect": false }
+            ],
+            "answer": "Poisoned by Thornhill"
+            },
+            {
+            "question": "What is the name of the town near Nevermore Academy?",
+            "options": [
+                { "text": "Jericho", "isCorrect": true },
+                { "text": "Salem", "isCorrect": false },
+                { "text": "Evernight", "isCorrect": false },
+                { "text": "Blackrock", "isCorrect": false }
+            ],
+            "answer": "Jericho"
+            },
+            {
+            "question": "What kind of supernatural creature is Larissa Weems?",
+            "options": [
+                { "text": "Werewolf", "isCorrect": false },
+                { "text": "Shapeshifter", "isCorrect": true },
+                { "text": "Witch", "isCorrect": false },
+                { "text": "Ghost", "isCorrect": false }
+            ],
+            "answer": "Shapeshifter"
+            },
+            {
+            "question": "Which Addams family member does not appear in Season 1?",
+            "options": [
+                { "text": "Morticia", "isCorrect": false },
+                { "text": "Gomez", "isCorrect": false },
+                { "text": "Grandmama", "isCorrect": true },
+                { "text": "Pugsley", "isCorrect": false }
+            ],
+            "answer": "Grandmama"
+            }
+        ]
+    },
+
+
+    "breaking_bad": {
+        "beginner": [
+            {
+            "question": "What is Walter White’s profession at the beginning of the series?",
+            "options": [
+                { "text": "Police Officer", "isCorrect": false },
+                { "text": "Chemistry Teacher", "isCorrect": true },
+                { "text": "Lawyer", "isCorrect": false },
+                { "text": "Pharmacist", "isCorrect": false }
+            ],
+            "answer": "Chemistry Teacher"
+            },
+            {
+            "question": "Who is Walter White’s former student and partner in crime?",
+            "options": [
+                { "text": "Gustavo Fring", "isCorrect": false },
+                { "text": "Jesse Pinkman", "isCorrect": true },
+                { "text": "Saul Goodman", "isCorrect": false },
+                { "text": "Hank Schrader", "isCorrect": false }
+            ],
+            "answer": "Jesse Pinkman"
+            },
+            {
+            "question": "What alias does Walter White use in the drug world?",
+            "options": [
+                { "text": "Heisenberg", "isCorrect": true },
+                { "text": "W.W.", "isCorrect": false },
+                { "text": "Blue Sky", "isCorrect": false },
+                { "text": "The Cook", "isCorrect": false }
+            ],
+            "answer": "Heisenberg"
+            },
+            {
+            "question": "What terminal illness is Walter White diagnosed with?",
+            "options": [
+                { "text": "Liver Cancer", "isCorrect": false },
+                { "text": "Stomach Cancer", "isCorrect": false },
+                { "text": "Lung Cancer", "isCorrect": true },
+                { "text": "Brain Tumor", "isCorrect": false }
+            ],
+            "answer": "Lung Cancer"
+            },
+            {
+            "question": "What color is associated with the meth produced by Walter?",
+            "options": [
+                { "text": "Pink", "isCorrect": false },
+                { "text": "Blue", "isCorrect": true },
+                { "text": "White", "isCorrect": false },
+                { "text": "Green", "isCorrect": false }
+            ],
+            "answer": "Blue"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Who is the owner of Los Pollos Hermanos?",
+            "options": [
+                { "text": "Tuco Salamanca", "isCorrect": false },
+                { "text": "Hector Salamanca", "isCorrect": false },
+                { "text": "Gustavo Fring", "isCorrect": true },
+                { "text": "Mike Ehrmantraut", "isCorrect": false }
+            ],
+            "answer": "Gustavo Fring"
+            },
+            {
+            "question": "What is the name of Walter’s wife?",
+            "options": [
+                { "text": "Skyler", "isCorrect": true },
+                { "text": "Marie", "isCorrect": false },
+                { "text": "Jane", "isCorrect": false },
+                { "text": "Andrea", "isCorrect": false }
+            ],
+            "answer": "Skyler"
+            },
+            {
+            "question": "Which character is a DEA agent and Walter's brother-in-law?",
+            "options": [
+                { "text": "Mike", "isCorrect": false },
+                { "text": "Jesse", "isCorrect": false },
+                { "text": "Hank", "isCorrect": true },
+                { "text": "Todd", "isCorrect": false }
+            ],
+            "answer": "Hank"
+            },
+            {
+            "question": "What was the name of Jesse’s girlfriend who died from overdose?",
+            "options": [
+                { "text": "Skyler", "isCorrect": false },
+                { "text": "Andrea", "isCorrect": false },
+                { "text": "Jane", "isCorrect": true },
+                { "text": "Marie", "isCorrect": false }
+            ],
+            "answer": "Jane"
+            },
+            {
+            "question": "Where does Walter hide his money in the later seasons?",
+            "options": [
+                { "text": "Storage unit", "isCorrect": false },
+                { "text": "Bank", "isCorrect": false },
+                { "text": "Car wash", "isCorrect": false },
+                { "text": "Barrels buried in desert", "isCorrect": true }
+            ],
+            "answer": "Barrels buried in desert"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "What chemical process is used by Walt to dissolve bodies?",
+            "options": [
+                { "text": "Hydrolysis", "isCorrect": false },
+                { "text": "Acid digestion using hydrofluoric acid", "isCorrect": true },
+                { "text": "Chlorination", "isCorrect": false },
+                { "text": "Decomposition with lye", "isCorrect": false }
+            ],
+            "answer": "Acid digestion using hydrofluoric acid"
+            },
+            {
+            "question": "Which character rigged a bomb on a wheelchair?",
+            "options": [
+                { "text": "Walter White", "isCorrect": false },
+                { "text": "Jesse Pinkman", "isCorrect": false },
+                { "text": "Hector Salamanca", "isCorrect": true },
+                { "text": "Mike Ehrmantraut", "isCorrect": false }
+            ],
+            "answer": "Hector Salamanca"
+            },
+            {
+            "question": "What is the name of the German company secretly linked to Walt’s drug empire?",
+            "options": [
+                { "text": "Vamonos Pest", "isCorrect": false },
+                { "text": "Gray Matter", "isCorrect": false },
+                { "text": "Madrigal Electromotive", "isCorrect": true },
+                { "text": "Fring Enterprises", "isCorrect": false }
+            ],
+            "answer": "Madrigal Electromotive"
+            },
+            {
+            "question": "Which character is forced to kill Gale Boetticher?",
+            "options": [
+                { "text": "Walter", "isCorrect": false },
+                { "text": "Jesse", "isCorrect": true },
+                { "text": "Hank", "isCorrect": false },
+                { "text": "Mike", "isCorrect": false }
+            ],
+            "answer": "Jesse"
+            },
+            {
+            "question": "What is the final episode of Breaking Bad titled?",
+            "options": [
+                { "text": "Ozymandias", "isCorrect": false },
+                { "text": "Felina", "isCorrect": true },
+                { "text": "Endgame", "isCorrect": false },
+                { "text": "Goodbye Mr. White", "isCorrect": false }
+            ],
+            "answer": "Felina"
+            }
+        ],
+        "pro": [
+            {
+            "question": "What is the significance of the episode title 'Ozymandias'?",
+            "options": [
+                { "text": "Refers to Walt’s empire collapsing", "isCorrect": true },
+                { "text": "A hidden chemical formula", "isCorrect": false },
+                { "text": "The name of Walt’s alter ego", "isCorrect": false },
+                { "text": "Skyler’s poem", "isCorrect": false }
+            ],
+            "answer": "Refers to Walt’s empire collapsing"
+            },
+            {
+            "question": "What does the name 'Felina' reference in the final episode?",
+            "options": [
+                { "text": "Anagram of 'finale'", "isCorrect": true },
+                { "text": "Skyler’s maiden name", "isCorrect": false },
+                { "text": "Walt’s daughter", "isCorrect": false },
+                { "text": "A location in Mexico", "isCorrect": false }
+            ],
+            "answer": "Anagram of 'finale'"
+            },
+            {
+            "question": "What is the name of the vacuum cleaner repairman who helps people disappear?",
+            "options": [
+                { "text": "Ed Galbraith", "isCorrect": true },
+                { "text": "Mike Ehrmantraut", "isCorrect": false },
+                { "text": "Todd Alquist", "isCorrect": false },
+                { "text": "Saul Goodman", "isCorrect": false }
+            ],
+            "answer": "Ed Galbraith"
+            },
+            {
+            "question": "Which band’s song 'Baby Blue' plays at the end of the final episode?",
+            "options": [
+                { "text": "The Beatles", "isCorrect": false },
+                { "text": "Badfinger", "isCorrect": true },
+                { "text": "Led Zeppelin", "isCorrect": false },
+                { "text": "Pink Floyd", "isCorrect": false }
+            ],
+            "answer": "Badfinger"
+            },
+            {
+            "question": "Which character utters the famous line, 'Say my name'?",
+            "options": [
+                { "text": "Jesse Pinkman", "isCorrect": false },
+                { "text": "Walter White", "isCorrect": true },
+                { "text": "Hank Schrader", "isCorrect": false },
+                { "text": "Gustavo Fring", "isCorrect": false }
+            ],
+            "answer": "Walter White"
+            }
+        ]
+    },
+
+    "friends": {
+        "beginner": [
+            {
+            "question": "How many main characters are there in Friends?",
+            "options": [
+                { "text": "5", "isCorrect": false },
+                { "text": "6", "isCorrect": true },
+                { "text": "7", "isCorrect": false },
+                { "text": "8", "isCorrect": false }
+            ],
+            "answer": "6"
+            },
+            {
+            "question": "What is the name of Ross and Monica's dog from childhood?",
+            "options": [
+                { "text": "Fluffy", "isCorrect": false },
+                { "text": "Chi-Chi", "isCorrect": true },
+                { "text": "Buddy", "isCorrect": false },
+                { "text": "Ginger", "isCorrect": false }
+            ],
+            "answer": "Chi-Chi"
+            },
+            {
+            "question": "Which friend is a paleontologist?",
+            "options": [
+                { "text": "Joey", "isCorrect": false },
+                { "text": "Chandler", "isCorrect": false },
+                { "text": "Ross", "isCorrect": true },
+                { "text": "Gunther", "isCorrect": false }
+            ],
+            "answer": "Ross"
+            },
+            {
+            "question": "What is Joey’s famous catchphrase?",
+            "options": [
+                { "text": "What’s the deal?", "isCorrect": false },
+                { "text": "How you doin'?", "isCorrect": true },
+                { "text": "Could I BE more funny?", "isCorrect": false },
+                { "text": "Alrighty then!", "isCorrect": false }
+            ],
+            "answer": "How you doin'?"
+            },
+            {
+            "question": "What is the name of the coffee shop they frequent?",
+            "options": [
+                { "text": "Central Coffee", "isCorrect": false },
+                { "text": "Daily Grind", "isCorrect": false },
+                { "text": "Central Perk", "isCorrect": true },
+                { "text": "Perk Up", "isCorrect": false }
+            ],
+            "answer": "Central Perk"
+            }
+        ],
+        "intermediate": [
+            {
+            "question": "Which character famously got a turkey stuck on their head?",
+            "options": [
+                { "text": "Rachel", "isCorrect": false },
+                { "text": "Phoebe", "isCorrect": false },
+                { "text": "Joey", "isCorrect": false },
+                { "text": "Monica", "isCorrect": true }
+            ],
+            "answer": "Monica"
+            },
+            {
+            "question": "What fruit is Ross allergic to?",
+            "options": [
+                { "text": "Bananas", "isCorrect": false },
+                { "text": "Kiwi", "isCorrect": true },
+                { "text": "Apples", "isCorrect": false },
+                { "text": "Strawberries", "isCorrect": false }
+            ],
+            "answer": "Kiwi"
+            },
+            {
+            "question": "Who was Monica’s first serious boyfriend in the show?",
+            "options": [
+                { "text": "Richard", "isCorrect": true },
+                { "text": "Chandler", "isCorrect": false },
+                { "text": "Paul", "isCorrect": false },
+                { "text": "Pete", "isCorrect": false }
+            ],
+            "answer": "Richard"
+            },
+            {
+            "question": "What is Chandler’s job?",
+            "options": [
+                { "text": "Data Analyst", "isCorrect": false },
+                { "text": "Statistical Analysis and Data Reconfiguration", "isCorrect": true },
+                { "text": "IT Consultant", "isCorrect": false },
+                { "text": "Accountant", "isCorrect": false }
+            ],
+            "answer": "Statistical Analysis and Data Reconfiguration"
+            },
+            {
+            "question": "Who mistakingly thought Monica was Ross’s mother?",
+            "options": [
+                { "text": "Gunther", "isCorrect": false },
+                { "text": "Phoebe", "isCorrect": false },
+                { "text": "Rachel’s father", "isCorrect": false },
+                { "text": "Chandler", "isCorrect": true }
+            ],
+            "answer": "Chandler"
+            }
+        ],
+        "advanced": [
+            {
+            "question": "Which comic book did Ross create as a kid?",
+            "options": [
+                { "text": "Dino Man", "isCorrect": false },
+                { "text": "Science Boy", "isCorrect": true },
+                { "text": "Math Hero", "isCorrect": false },
+                { "text": "Chem Captain", "isCorrect": false }
+            ],
+            "answer": "Science Boy"
+            },
+            {
+            "question": "What is the name of Joey’s stuffed penguin?",
+            "options": [
+                { "text": "Waddle", "isCorrect": false },
+                { "text": "Snowflake", "isCorrect": false },
+                { "text": "Hugsy", "isCorrect": true },
+                { "text": "Pingu", "isCorrect": false }
+            ],
+            "answer": "Hugsy"
+            },
+            {
+            "question": "What song makes Ross and Rachel's daughter Emma laugh for the first time?",
+            "options": [
+                { "text": "Twinkle Twinkle", "isCorrect": false },
+                { "text": "Baby Got Back", "isCorrect": true },
+                { "text": "Barney Theme", "isCorrect": false },
+                { "text": "Rockabye Baby", "isCorrect": false }
+            ],
+            "answer": "Baby Got Back"
+            },
+            {
+            "question": "Who was on the laminated celebrity list that Ross was allowed to date?",
+            "options": [
+                { "text": "Isabella Rossellini", "isCorrect": true },
+                { "text": "Julia Roberts", "isCorrect": false },
+                { "text": "Jennifer Aniston", "isCorrect": false },
+                { "text": "Reese Witherspoon", "isCorrect": false }
+            ],
+            "answer": "Isabella Rossellini"
+            },
+            {
+            "question": "Which of these was NOT one of the original names considered for the show?",
+            "options": [
+                { "text": "Insomnia Cafe", "isCorrect": false },
+                { "text": "Across the Hall", "isCorrect": false },
+                { "text": "Friends Like Us", "isCorrect": false },
+                { "text": "Six in the City", "isCorrect": true }
+            ],
+            "answer": "Six in the City"
+            }
+        ],
+        "pro": [
+            {
+            "question": "What does Rachel’s tattoo depict?",
+            "options": [
+                { "text": "Heart", "isCorrect": true },
+                { "text": "Butterfly", "isCorrect": false },
+                { "text": "Star", "isCorrect": false },
+                { "text": "Dolphin", "isCorrect": false }
+            ],
+            "answer": "Heart"
+            },
+            {
+            "question": "What was the name of the woman Ross married in England?",
+            "options": [
+                { "text": "Emily", "isCorrect": true },
+                { "text": "Carol", "isCorrect": false },
+                { "text": "Susan", "isCorrect": false },
+                { "text": "Elizabeth", "isCorrect": false }
+            ],
+            "answer": "Emily"
+            },
+            {
+            "question": "What is the name of Chandler and Joey's TV guide addressed to?",
+            "options": [
+                { "text": "Miss Chanandler Bong", "isCorrect": true },
+                { "text": "Mr. J Tribbiani", "isCorrect": false },
+                { "text": "Chandler B.", "isCorrect": false },
+                { "text": "Chanandler J. Bing", "isCorrect": false }
+            ],
+            "answer": "Miss Chanandler Bong"
+            },
+            {
+            "question": "What was Phoebe’s alias when she posed as a businesswoman?",
+            "options": [
+                { "text": "Regina Phalange", "isCorrect": true },
+                { "text": "Monana Bing", "isCorrect": false },
+                { "text": "Princess Consuela", "isCorrect": false },
+                { "text": "Phoebo", "isCorrect": false }
+            ],
+            "answer": "Regina Phalange"
+            },
+            {
+            "question": "How many roses did Ross send to Emily after their breakup?",
+            "options": [
+                { "text": "365", "isCorrect": true },
+                { "text": "100", "isCorrect": false },
+                { "text": "500", "isCorrect": false },
+                { "text": "99", "isCorrect": false }
+            ],
+            "answer": "365"
+            }
+        ]
+    }
+
+}
