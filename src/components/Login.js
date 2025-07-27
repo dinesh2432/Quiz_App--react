@@ -266,6 +266,8 @@
 // };
 
 // export default Login;
+
+
 import React, { useEffect, useState } from 'react';
 import {
   GoogleAuthProvider,
@@ -290,23 +292,34 @@ const Login = () => {
   const location = useLocation();
   const isLogin = location.pathname === '/login';
 
-  useEffect(() => {
-    const today = new Date();
-    const year = today.getFullYear();
-    setDate(year);
+useEffect(() => {
+  const checkRedirectResult = async () => {
+    try {
+      const result = await getRedirectResult(auth);
+      if (result && result.user) {
+        console.log("✅ Google Sign-In Success:", result.user.email);
+        navigate('/dashboard');
+      } else {
+        console.log("⏳ No redirect result found yet.");
+      }
+    } catch (error) {
+      console.error("❌ Google Redirect Sign-In Error:", error.message);
+      alert("Google sign-in failed: " + error.message);
+    }
+  };
 
-    // ✅ Handle Google redirect sign-in result
-    getRedirectResult(auth)
-      .then((result) => {
-        if (result) {
-          navigate('/dashboard');
-        }
-      })
-      .catch((error) => {
-        console.error("Redirect result error:", error);
-        alert("Google sign-in failed. Please try again.");
-      });
-  }, []);
+  checkRedirectResult();
+}, [navigate]);
+
+// ✅ ADD THIS
+useEffect(() => {
+  const unsubscribe = auth.onAuthStateChanged((user) => {
+    if (user) {
+      navigate('/dashboard');
+    }
+  });
+  return () => unsubscribe();
+}, []);
 
   const handleBack = (e) => {
     e.preventDefault();
@@ -353,7 +366,7 @@ const Login = () => {
     provider.setCustomParameters({ prompt: 'select_account' });
 
     try {
-      await signInWithRedirect(auth, provider); // ✅ mobile-friendly
+      await signInWithRedirect(auth, provider);
     } catch (error) {
       console.error("Google Redirect Sign-In Error:", error);
       alert('Google sign-in failed. Please try again.');
