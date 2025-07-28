@@ -310,16 +310,15 @@ useEffect(() => {
 
   checkRedirectResult();
 }, [navigate]);
-
-// ✅ ADD THIS
 useEffect(() => {
   const unsubscribe = auth.onAuthStateChanged((user) => {
-    if (user) {
+    const currentPath = location.pathname;
+    if (user && currentPath === '/login') {
       navigate('/dashboard');
     }
   });
   return () => unsubscribe();
-}, []);
+}, [location, navigate]);
 
   const handleBack = (e) => {
     e.preventDefault();
