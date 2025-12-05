@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 import seriesData from '../../data/seriesData.json'
 
 const Friends_Quiz = () => {
@@ -9,7 +9,7 @@ const Friends_Quiz = () => {
     const [score, setScore] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [level, setLevel] = useState('beginner');
-
+    const location = useLocation()
     const symbol = '\u00A9';
     const names = 'DINESH K'
     

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './Program.css'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 
 
 import crime_analysis_bg from '../../assest/detective_bg/crime_scene_analysis_bg.webp'
@@ -14,7 +14,7 @@ const Detective = () => {
   const symbol = '\u00A9';
   const names = 'DINESH K'
   const navigate = useNavigate();
-
+  const location =useLocation()
   useEffect(() => {
     const today = new Date();  
     const year = today.getFullYear();

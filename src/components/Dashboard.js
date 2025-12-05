@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import './Dashboard.css'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 import { CgLogOut } from "react-icons/cg";
 import program_img from '../assest/program_img.webp'
 import puzzle_img from '../assest/puzzle_img.webp'
@@ -17,6 +17,7 @@ const Dashboard = () => {
   const symbol = '\u00A9';
   const names = 'DINESH K'
   const navigate = useNavigate()
+  const location = useLocation()
   
   useEffect(() => {
     const today = new Date();  

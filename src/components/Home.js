@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -8,7 +8,7 @@ const Home = () => {
   const [date, setDate] = useState('');
   const symbol = '\u00A9';
   const names = 'DINESH K'
-
+  const location = useLocation()
 
   useEffect(() => {
     const today = new Date();  

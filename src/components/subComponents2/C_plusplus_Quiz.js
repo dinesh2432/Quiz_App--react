@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import quizData from '../../data/quizData.json';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 import './C_Quiz.css'
 
 const C_plusplus_Quiz = () => {
@@ -14,6 +14,7 @@ const C_plusplus_Quiz = () => {
     const names = 'DINESH K'
     
     const navigate = useNavigate();
+    const location = useLocation()
 
     useEffect(() => {
         const today = new Date();  

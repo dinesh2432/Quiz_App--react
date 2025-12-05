@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 import detectiveData from '../../data/detectiveData.json'
 
 const Crime_scene_quiz = () => {
@@ -11,7 +11,7 @@ const Crime_scene_quiz = () => {
     const [level, setLevel] = useState('beginner');
     const symbol = '\u00A9';
     const names = 'DINESH K'
-    
+    const location=useLocation()
     const navigate = useNavigate();
 
     useEffect(() => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 import factData from '../../data/factData.json'
 
 const Human_Fact = () => {
@@ -9,7 +9,7 @@ const Human_Fact = () => {
     const [score, setScore] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [level, setLevel] = useState('beginner');
-
+    const location=useLocation()
     const symbol = '\u00A9';
     const names = 'DINESH K'
     

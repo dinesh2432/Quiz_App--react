@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './Program.css'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 
 
 import breaking_bad_bg from '../../assest/series_bg/breaking_bad_bg.webp'
@@ -16,6 +16,7 @@ const Series = () => {
   const [date, setDate] = useState('');
   const symbol = '\u00A9';
   const names = 'DINESH K'
+  const location = useLocation()
   
   const navigate = useNavigate();
 

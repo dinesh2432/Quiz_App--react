@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,useLocation } from 'react-router-dom';
 import quizData from '../../data/quizData.json';
 import './C_Quiz.css';
 
@@ -12,8 +12,7 @@ const CQuiz = () => {
 
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswerClicked, setIsAnswerClicked] = useState(false);
-
-
+  const location=useLocation()
   const navigate = useNavigate();
 
   useEffect(() => {

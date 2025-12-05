@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 import quizData from '../../data/quizData.json';
 import './C_Quiz.css'
 const Javascript_Quiz = () => {
@@ -11,7 +11,7 @@ const Javascript_Quiz = () => {
     const [level, setLevel] = useState('beginner');
     const symbol = '\u00A9';
     const names = 'DINESH K'
-    
+    const location=useLocation()
     const navigate = useNavigate();
 
     useEffect(() => {

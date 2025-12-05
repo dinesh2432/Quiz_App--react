@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './Program.css'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 
 import word_bg from '../../assest/puzzle_bg/word_bg.webp'
 import math_bg from '../../assest/puzzle_bg/math_bg.webp'
@@ -12,6 +12,7 @@ const Puzzles = () => {
   const [date, setDate] = useState('');
   const symbol = '\u00A9';
   const names = 'DINESH K'
+  const location = useLocation()
   
   const navigate = useNavigate();
 

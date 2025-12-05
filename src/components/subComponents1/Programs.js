@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import './Program.css'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,useLocation } from 'react-router-dom'
 
 import c_bg from '../../assest/program_bg/c_bg.webp'
 import cstar_bg from '../../assest/program_bg/cc_bg.webp'
@@ -16,6 +16,7 @@ const Programs = () => {
   const [date, setDate] = useState('');
   const symbol = '\u00A9';
   const names = 'DINESH K'
+  const location =useLocation()
   
   const navigate = useNavigate();
 
