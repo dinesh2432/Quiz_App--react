@@ -14,7 +14,6 @@ const Login = () => {
   const symbol = '\u00A9';
   const names = 'DINESH K'
   
-  
   useEffect(() => {
     const today = new Date();  
     const year = today.getFullYear();
@@ -30,6 +29,7 @@ const Login = () => {
     e.preventDefault()
     navigate('/signup')
   }
+
   const location = useLocation();
   const isLogin = location.pathname == '/login'
   const navigate = useNavigate();
@@ -77,9 +77,6 @@ const Login = () => {
       }
     }
   };
-    
-  
-
 
   return (
     <div className={`login ${isLogin ? 'login_page' : 'other_page'}`}>
@@ -87,28 +84,21 @@ const Login = () => {
         <h1>QUIZ GAME</h1>
         <button onClick={handleBack}>BACK</button>
       </header>   
-
       <main className='main'>
         <form className='form'>
           <h3>WELCOME BUDDY</h3>
-
           <div className="input-border">
             <input type="text" placeholder="enter email id" name='email' required  value={email} onChange={(e)=>setEmail(e.target.value)}/>
           </div>
-
           <div className="input-border">
             <input type="password" placeholder="enter your password" name='password' required value={password} onChange={(e) => setPassword(e.target.value)} />
           </div>
-
           <button type='button' onClick={handleLogin} className='btn1'>LOG IN</button>
           <hr />
           <button onClick={handleGoogle} className='btn2'><FaGoogle className='google_logo' />Sign in with Google</button>
           <p className='sign_up'>Don't have an account? <span className='span' style={{textDecoration:'underline', color:'blue'}} onClick={handleNext}> Sign Up</span></p>
-
         </form>
       </main>
-
-
       <footer className='footer'>
         <p >{symbol}{date} by <span style={{ color: 'orange', fontWeight: 'bold' }}>{names}</span> QuizGame. All rights reserved.</p>
       </footer>
