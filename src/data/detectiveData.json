@@ -452,12 +452,12 @@
             {
             "question": "Which number completes the series?\n5, 10, 17, 26, __",
             "options": [
-                { "text": "35", "isCorrect": true },
+                { "text": "35", "isCorrect": false },
                 { "text": "34", "isCorrect": false },
                 { "text": "36", "isCorrect": false },
-                { "text": "37", "isCorrect": false }
+                { "text": "37", "isCorrect": true }
             ],
-            "answer": "35"
+            "answer": "37"
             },
             {
             "question": "Find the missing letter:\nB, D, G, K, __",

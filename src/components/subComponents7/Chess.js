@@ -9,6 +9,8 @@ const Chess = () => {
     const [score, setScore] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [level, setLevel] = useState('beginner');
+    const [selectedOption, setSelectedOption] = useState(null);
+    const [isAnswered, setIsAnswered] = useState(false);
     const location = useLocation()
     const symbol = '\u00A9';
     const names = 'DINESH K'
@@ -25,17 +27,26 @@ const Chess = () => {
         e.preventDefault();
         navigate('/sports')
     }    
-    const handleAnswerOptionClick = (isCorrect) => {
+    const handleAnswerOptionClick = (isCorrect, index) => {
+        if (isAnswered) return;
+
+        setSelectedOption(index);
+        setIsAnswered(true);
+
         if (isCorrect) {
-        setScore(score + 1);
+            setScore(score + 1);
         }
 
-        const nextQuestion = currentQuestion + 1;
-        if (nextQuestion < sportsData.chess[level].length) {
-        setCurrentQuestion(nextQuestion);
-        } else {
-        setShowScore(true);
-        }
+        setTimeout(() => {
+            const nextQuestion = currentQuestion + 1;
+            if (nextQuestion < sportsData.chess[level].length) {
+                setCurrentQuestion(nextQuestion);
+            } else {
+                setShowScore(true);
+            }
+            setSelectedOption(null);
+            setIsAnswered(false);
+        }, 1500);
     };
 
     const handleRetake = () => {
@@ -83,11 +94,29 @@ const Chess = () => {
 
                 </div>
                 <div className="answer-section">
-                {sportsData.chess[level][currentQuestion].options.map((option, index) => (
-                    <button key={index} onClick={() => handleAnswerOptionClick(option.isCorrect)}>
-                    {option.text}
-                    </button>
-                ))}
+                {sportsData.chess[level][currentQuestion].options.map((option, index) => {
+                    let buttonStyle = { transition: 'background-color 0.3s ease' };
+                    if (isAnswered) {
+                        if (option.isCorrect) {
+                            buttonStyle.backgroundColor = '#4CAF50';
+                            buttonStyle.color = 'white';
+                        } else if (index === selectedOption) {
+                            buttonStyle.backgroundColor = '#f44336';
+                            buttonStyle.color = 'white';
+                        }
+                    }
+
+                    return (
+                        <button 
+                            key={index} 
+                            onClick={() => handleAnswerOptionClick(option.isCorrect, index)}
+                            style={buttonStyle}
+                            disabled={isAnswered}
+                        >
+                        {option.text}
+                        </button>
+                    );
+                })}
                 </div>
             </div>
             ) : (

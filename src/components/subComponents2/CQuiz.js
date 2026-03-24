@@ -11,7 +11,8 @@ const CQuiz = () => {
   const [level, setLevel] = useState('beginner');
 
   const [selectedOption, setSelectedOption] = useState(null);
-  const [isAnswerClicked, setIsAnswerClicked] = useState(false);
+    const [isAnswered, setIsAnswered] = useState(false);
+  
   const location=useLocation()
   const navigate = useNavigate();
 
@@ -26,28 +27,28 @@ const CQuiz = () => {
   };
 
   const handleAnswerOptionClick = (isCorrect, index) => {
-    setSelectedOption(index);
-    setIsAnswerClicked(true);
+        if (isAnswered) return;
 
-    if (isCorrect) {
-      setScore((prevScore) => prevScore + 1);
-    }
+        setSelectedOption(index);
+        setIsAnswered(true);
 
-    
-    setTimeout(() => {
-      const nextQuestion = currentQuestion + 1;
-      if (nextQuestion < quizData.c[level].length) {
-        setCurrentQuestion(nextQuestion);
-        setSelectedOption(null);
-        setIsAnswerClicked(false);
-      } else {
-        setShowScore(true);
-      }
-    }, 1000);
-  };
+        if (isCorrect) {
+            setScore(score + 1);
+        }
 
+        setTimeout(() => {
+            const nextQuestion = currentQuestion + 1;
+            if (nextQuestion < quizData.c[level].length) {
+                setCurrentQuestion(nextQuestion);
+            } else {
+                setShowScore(true);
+            }
+            setSelectedOption(null);
+            setIsAnswered(false);
+        }, 1500);
+    };
 
-  const handleRetake = () => {
+    const handleRetake = () => {
     setCurrentQuestion(0);
     setScore(0);
     setShowScore(false);
@@ -92,12 +93,30 @@ const CQuiz = () => {
 
             </div>
             <div className="answer-section">
-              {quizData.c[level][currentQuestion].options.map((option, index) => (
-                <button key={index} onClick={() => handleAnswerOptionClick(option.isCorrect)}>
-                  {option.text}
-                </button>
-              ))}
-            </div>
+                {quizData.c[level][currentQuestion].options.map((option, index) => {
+                    let buttonStyle = { transition: 'background-color 0.3s ease' };
+                    if (isAnswered) {
+                        if (option.isCorrect) {
+                            buttonStyle.backgroundColor = '#4CAF50';
+                            buttonStyle.color = 'white';
+                        } else if (index === selectedOption) {
+                            buttonStyle.backgroundColor = '#f44336';
+                            buttonStyle.color = 'white';
+                        }
+                    }
+
+                    return (
+                        <button 
+                            key={index} 
+                            onClick={() => handleAnswerOptionClick(option.isCorrect, index)}
+                            style={buttonStyle}
+                            disabled={isAnswered}
+                        >
+                        {option.text}
+                        </button>
+                    );
+                })}
+                </div>
           </div>
         ) : (
           <div className="score-section">
